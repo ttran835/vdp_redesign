@@ -1,0 +1,818 @@
+{
+  "tokens": ["rolls-roycemotorcarsoc"],
+  "vehicles": [
+    {
+      "siteToken": "rolls-roycemotorcarsoc",
+      "lotToken": "rolls-roycemotorcarsoc",
+      "lotName": "Rolls Royce Motor Cars OC",
+      "vin": "SCA665C5XFUX85455",
+      "condition": "used",
+      "certified": false,
+      "year": "2015",
+      "make": "Rolls-Royce",
+      "model": "Wraith",
+      "trim": "",
+      "label": "2015 Rolls-Royce Wraith ",
+      "stockNum": "R1255A",
+      "acode": "USC50RRC081A0",
+      "pricing": {
+        "display": [
+          {
+            "label": "Price&colon;",
+            "value": "&dollar;169,987",
+            "attributes": {
+              "class": "base-price"
+            }
+          }
+        ],
+        "data": {
+          "msrp": 0,
+          "internet": 169987,
+          "override": {
+            "cms": {
+              "total": 0,
+              "items": []
+            }
+          },
+          "discount": {
+            "total": 0,
+            "cms": {
+              "total": 0,
+              "items": []
+            },
+            "dms": {
+              "total": 0,
+              "items": []
+            }
+          },
+          "markup": {
+            "total": 0,
+            "cms": {
+              "total": 0,
+              "items": []
+            },
+            "dms": {
+              "total": 0,
+              "items": []
+            }
+          },
+          "incentive": {
+            "total": 0,
+            "conditionalTotal": 0,
+            "items": [],
+            "conditional": [],
+            "select": []
+          },
+          "final": 169987,
+          "conditional": 0,
+          "feed": {
+            "internet": 169987,
+            "invoice": null,
+            "priceFinal": 169987,
+            "onSale": false,
+            "range": {
+              "low": 304350,
+              "high": 304350
+            }
+          }
+        }
+      },
+      "historicalPricing": [],
+      "monthlyPayment": [],
+      "engine": {
+        "nameFull": "6.6L V12 DGI DOHC 48V Twin Turbocharged",
+        "nameSimple": "6.6L V12 DGI DOHC 48V Twin Turbocharged",
+        "size": "6.6L",
+        "cylinders": null,
+        "fuel": "Gasoline",
+        "mpgCity": "13",
+        "mpgHwy": "21",
+        "mpgE": null
+      },
+      "transmission": {
+        "description": "",
+        "driveTypeAbbr": "RWD",
+        "driveTypeDesc": "Rear-wheel Drive",
+        "speeds": "8",
+        "type": "Automatic"
+      },
+      "bodyStyle": "Coupe",
+      "doors": "2",
+      "mileage": "29749",
+      "history": {
+        "daysInStock": "414",
+        "prevOwners": null
+      },
+      "color": {
+        "exterior": {
+          "name": "Diamond Black",
+          "generic": "Black",
+          "code": "",
+          "hex": null,
+          "rgb": null
+        },
+        "interior": {
+          "name": "Diamond Black",
+          "generic": "Black",
+          "code": "",
+          "hex": "",
+          "rgb": ""
+        }
+      },
+      "media": {
+        "image": {
+          "thumb": {
+            "src": "https://secure.images.demo.dev.pixelmotiondemo.com/thumbs/rolls-roycemotorcarsoc/SCA665C5XFUX85455/YmeYa-20190310163826.jpg",
+            "flip": 0,
+            "rotate": 0
+          },
+          "detail": "http://vehicle-photos-published.vauto.com/f0/7a/a2/ab-d8a2-418b-8811-e38a673cab5e/image-1.jpg"
+        },
+        "video": ""
+      },
+      "status": "available",
+      "in_transit": false,
+      "featured": false,
+      "advertisement": "CARFAX One-Owner. Clean CARFAX. Diamond Black 2015 Rolls-Royce Wraith RWD 8-Speed Automatic 6.6L V12 DGI DOHC 48V Twin Turbocharged",
+      "dealerComments": "",
+      "vehicleCodes": {
+        "autodata": "USC50RRC081A0",
+        "year": "C50",
+        "engine": ["RR05"],
+        "language": "EN",
+        "manufacturer": "WRAITH1",
+        "engineOption": "STDEN",
+        "installed": null
+      },
+      "accessories": [],
+      "pricingIncentive": [],
+      "flags": ["carfax-1-owner"],
+      "vdp_href": "/inventory/display/used/2015/Rolls-Royce/Wraith/SCA665C5XFUX85455",
+      "incentives": {
+        "bestOffer": [],
+        "select": [],
+        "conditional": []
+      },
+      "installedOptions": [
+        "DVD / Entertainment",
+        "Memory Seats",
+        "Navigation System",
+        "Rain Sensing Wipers",
+        "Rear Air Conditioning"
+      ],
+      "stats": [
+        {
+          "label": "Year&colon;",
+          "value": "2015",
+          "attributes": {
+            "class": "vlp-vehicle-year"
+          }
+        },
+        {
+          "label": "Exterior Color&colon;",
+          "value": "Diamond Black",
+          "attributes": {
+            "class": "vlp-item-color-exterior"
+          }
+        },
+        {
+          "label": "Interior Color&colon;",
+          "value": "Diamond Black",
+          "attributes": {
+            "class": "vlp-item-color-interior"
+          }
+        },
+        {
+          "label": "Mileage&colon;",
+          "value": 29749,
+          "attributes": {
+            "class": "vlp-item-mileage"
+          }
+        }
+      ],
+      "cta_row": [
+        {
+          "element": "a",
+          "label": " View Details",
+          "icon": "",
+          "attributes": {
+            "href": "/inventory/display/used/2015/Rolls-Royce/Wraith/SCA665C5XFUX85455",
+            "class": "cta-button btn view-details-btn"
+          }
+        }
+      ],
+      "cta_column": [],
+      "misc_display": []
+    },
+    {
+      "siteToken": "rolls-roycemotorcarsoc",
+      "lotToken": "rolls-roycemotorcarsoc",
+      "lotName": "Rolls Royce Motor Cars OC",
+      "vin": "SCA666D51JU115774",
+      "condition": "new",
+      "certified": false,
+      "year": "2018",
+      "make": "Rolls-Royce",
+      "model": "Dawn",
+      "trim": "",
+      "label": "2018 Rolls-Royce Dawn ",
+      "stockNum": "R1308",
+      "acode": "USC80RRC091A0",
+      "pricing": {
+        "display": [
+          {
+            "label": "MSRP&colon;",
+            "value": "&dollar;405,725",
+            "attributes": {
+              "class": "base-price"
+            }
+          }
+        ],
+        "data": {
+          "msrp": 405725,
+          "internet": 0,
+          "override": {
+            "cms": {
+              "total": 0,
+              "items": []
+            }
+          },
+          "discount": {
+            "total": 0,
+            "cms": {
+              "total": 0,
+              "items": []
+            },
+            "dms": {
+              "total": 0,
+              "items": []
+            }
+          },
+          "markup": {
+            "total": 0,
+            "cms": {
+              "total": 0,
+              "items": []
+            },
+            "dms": {
+              "total": 0,
+              "items": []
+            }
+          },
+          "incentive": {
+            "total": 0,
+            "conditionalTotal": 0,
+            "items": [],
+            "conditional": [],
+            "select": []
+          },
+          "final": 405725,
+          "conditional": 0,
+          "feed": {
+            "list": 405725,
+            "invoice": null,
+            "priceFinal": 405725,
+            "onSale": false,
+            "range": {
+              "low": 346300,
+              "high": 346300
+            }
+          }
+        }
+      },
+      "historicalPricing": [],
+      "monthlyPayment": [],
+      "engine": {
+        "nameFull": "V12",
+        "nameSimple": "V12",
+        "size": "6.6L",
+        "cylinders": null,
+        "fuel": "Gasoline",
+        "mpgCity": "12",
+        "mpgHwy": "18",
+        "mpgE": null
+      },
+      "transmission": {
+        "description": "",
+        "driveTypeAbbr": "RWD",
+        "driveTypeDesc": "Rear-wheel Drive",
+        "speeds": "8",
+        "type": "Automatic"
+      },
+      "bodyStyle": "Convertible",
+      "doors": "2",
+      "mileage": "7",
+      "history": {
+        "daysInStock": "301",
+        "prevOwners": null
+      },
+      "color": {
+        "exterior": {
+          "name": "Arctic White",
+          "generic": "White",
+          "code": "",
+          "hex": null,
+          "rgb": null
+        },
+        "interior": {
+          "name": "Arctic White/bl",
+          "generic": "White",
+          "code": "",
+          "hex": "",
+          "rgb": ""
+        }
+      },
+      "media": {
+        "image": {
+          "thumb": {
+            "src": "https://secure.images.demo.dev.pixelmotiondemo.com/thumbs/rolls-roycemotorcarsoc/SCA666D51JU115774/5dmsF-20190321105055.jpg",
+            "flip": 0,
+            "rotate": 0
+          },
+          "detail": "http://vehicle-photos-published.vauto.com/0c/f6/c1/42-c499-42c0-91ae-8094d7de4c2d/image-1.jpg"
+        },
+        "video": ""
+      },
+      "status": "available",
+      "in_transit": false,
+      "featured": false,
+      "advertisement": "",
+      "dealerComments": "",
+      "vehicleCodes": {
+        "autodata": "USC80RRC091A0",
+        "year": "C80",
+        "engine": ["RR01", "RR06"],
+        "language": "EN",
+        "manufacturer": "Dawn",
+        "engineOption": "STDEN",
+        "installed": null
+      },
+      "accessories": [],
+      "pricingIncentive": [],
+      "flags": [],
+      "vdp_href": "/inventory/display/new/2018/Rolls-Royce/Dawn/SCA666D51JU115774",
+      "incentives": {
+        "bestOffer": [],
+        "select": [],
+        "conditional": []
+      },
+      "installedOptions": [
+        "DVD / Entertainment",
+        "Leather Seats",
+        "Memory Seats",
+        "Navigation System",
+        "Rain Sensing Wipers",
+        "Rear Air Conditioning"
+      ],
+      "stats": [
+        {
+          "label": "Year&colon;",
+          "value": "2018",
+          "attributes": {
+            "class": "vlp-vehicle-year"
+          }
+        },
+        {
+          "label": "Exterior Color&colon;",
+          "value": "Arctic White",
+          "attributes": {
+            "class": "vlp-item-color-exterior"
+          }
+        },
+        {
+          "label": "Interior Color&colon;",
+          "value": "Arctic White/bl",
+          "attributes": {
+            "class": "vlp-item-color-interior"
+          }
+        },
+        {
+          "label": "Mileage&colon;",
+          "value": 7,
+          "attributes": {
+            "class": "vlp-item-mileage"
+          }
+        }
+      ],
+      "cta_row": [
+        {
+          "element": "a",
+          "label": " View Details",
+          "icon": "",
+          "attributes": {
+            "href": "/inventory/display/new/2018/Rolls-Royce/Dawn/SCA666D51JU115774",
+            "class": "cta-button btn view-details-btn"
+          }
+        }
+      ],
+      "cta_column": [],
+      "misc_display": []
+    },
+    {
+      "siteToken": "rolls-roycemotorcarsoc",
+      "lotToken": "rolls-roycemotorcarsoc",
+      "lotName": "Rolls Royce Motor Cars OC",
+      "vin": "SCA665C50FUX85545",
+      "condition": "used",
+      "certified": true,
+      "year": "2015",
+      "make": "Rolls-Royce",
+      "model": "Wraith",
+      "trim": "",
+      "label": "2015 Rolls-Royce Wraith ",
+      "stockNum": "R1228A",
+      "acode": "USC50RRC081A0",
+      "pricing": {
+        "display": [
+          {
+            "label": "Price&colon;",
+            "value": "&dollar;172,899",
+            "attributes": {
+              "class": "base-price"
+            }
+          }
+        ],
+        "data": {
+          "msrp": 0,
+          "internet": 172899,
+          "override": {
+            "cms": {
+              "total": 0,
+              "items": []
+            }
+          },
+          "discount": {
+            "total": 0,
+            "cms": {
+              "total": 0,
+              "items": []
+            },
+            "dms": {
+              "total": 0,
+              "items": []
+            }
+          },
+          "markup": {
+            "total": 0,
+            "cms": {
+              "total": 0,
+              "items": []
+            },
+            "dms": {
+              "total": 0,
+              "items": []
+            }
+          },
+          "incentive": {
+            "total": 0,
+            "conditionalTotal": 0,
+            "items": [],
+            "conditional": [],
+            "select": []
+          },
+          "final": 172899,
+          "conditional": 0,
+          "feed": {
+            "internet": 172899,
+            "invoice": null,
+            "priceFinal": 172899,
+            "onSale": false,
+            "range": {
+              "low": 304350,
+              "high": 304350
+            }
+          }
+        }
+      },
+      "historicalPricing": [],
+      "monthlyPayment": [],
+      "engine": {
+        "nameFull": "6.6L V12 DGI DOHC 48V Twin Turbocharged",
+        "nameSimple": "6.6L V12 DGI DOHC 48V Twin Turbocharged",
+        "size": "6.6L",
+        "cylinders": null,
+        "fuel": "Gasoline",
+        "mpgCity": "13",
+        "mpgHwy": "21",
+        "mpgE": null
+      },
+      "transmission": {
+        "description": "",
+        "driveTypeAbbr": "RWD",
+        "driveTypeDesc": "Rear-wheel Drive",
+        "speeds": "8",
+        "type": "Automatic"
+      },
+      "bodyStyle": "Coupe",
+      "doors": "2",
+      "mileage": "22503",
+      "history": {
+        "daysInStock": "747",
+        "prevOwners": null
+      },
+      "color": {
+        "exterior": {
+          "name": "Diamond Black",
+          "generic": "Black",
+          "code": "",
+          "hex": null,
+          "rgb": null
+        },
+        "interior": {
+          "name": "Black",
+          "generic": "Black",
+          "code": "",
+          "hex": "",
+          "rgb": ""
+        }
+      },
+      "media": {
+        "image": {
+          "thumb": {
+            "src": "https://secure.images.demo.dev.pixelmotiondemo.com/thumbs/rolls-roycemotorcarsoc/SCA665C50FUX85545/FO3s2-20190310163822.jpg",
+            "flip": 0,
+            "rotate": 0
+          },
+          "detail": "http://vehicle-photos-published.vauto.com/33/a5/c6/8a-3bdf-4fd5-9eec-5ca1c3126cd0/image-1.jpg"
+        },
+        "video": ""
+      },
+      "status": "available",
+      "in_transit": false,
+      "featured": false,
+      "advertisement": "Low mileage, Rolls-Royce Provenance 2015 Rolls-Royce Wraith. <br><br><br>Dealer Options include:<br>Driver's Assistance 1,<br>Adaptive Headlights,<br>Polished Stainless Steel Package,<br>21'' Polished Stainless Steel Package,<br>Comfort Entry System,<br>High-Beam Assistance,<br>Lane Departure Warning,<br>Head-Up Display,<br>Camera System,<br><br>Bespoke Options:<br>RR monogram to all headrests,<br>SoE Inlays to Monitor Lid,<br>Treadplates - Wraith.<br><br>And much more!<br><br>Exterior in<br>Black.<br><br>Interior in<br>Black.<br><br>Please call or stop by for a test drive today.",
+      "dealerComments": "",
+      "vehicleCodes": {
+        "autodata": "USC50RRC081A0",
+        "year": "C50",
+        "engine": ["RR05"],
+        "language": "EN",
+        "manufacturer": "WRAITH1",
+        "engineOption": "STDEN",
+        "installed": null
+      },
+      "accessories": [],
+      "pricingIncentive": [],
+      "flags": ["carfax-1-owner"],
+      "vdp_href": "/inventory/display/used/certified/2015/Rolls-Royce/Wraith/SCA665C50FUX85545",
+      "incentives": {
+        "bestOffer": [],
+        "select": [],
+        "conditional": []
+      },
+      "installedOptions": [
+        "DVD / Entertainment",
+        "Memory Seats",
+        "Navigation System",
+        "Rain Sensing Wipers",
+        "Rear Air Conditioning"
+      ],
+      "stats": [
+        {
+          "label": "Year&colon;",
+          "value": "2015",
+          "attributes": {
+            "class": "vlp-vehicle-year"
+          }
+        },
+        {
+          "label": "Exterior Color&colon;",
+          "value": "Diamond Black",
+          "attributes": {
+            "class": "vlp-item-color-exterior"
+          }
+        },
+        {
+          "label": "Interior Color&colon;",
+          "value": "Black",
+          "attributes": {
+            "class": "vlp-item-color-interior"
+          }
+        },
+        {
+          "label": "Mileage&colon;",
+          "value": 22503,
+          "attributes": {
+            "class": "vlp-item-mileage"
+          }
+        }
+      ],
+      "cta_row": [
+        {
+          "element": "a",
+          "label": " View Details",
+          "icon": "",
+          "attributes": {
+            "href": "/inventory/display/used/2015/Rolls-Royce/Wraith/SCA665C50FUX85545",
+            "class": "cta-button btn view-details-btn"
+          }
+        }
+      ],
+      "cta_column": [],
+      "misc_display": []
+    },
+    {
+      "siteToken": "rolls-roycemotorcarsoc",
+      "lotToken": "rolls-roycemotorcarsoc",
+      "lotName": "Rolls Royce Motor Cars OC",
+      "vin": "SCA664S54EUX52719",
+      "condition": "used",
+      "certified": true,
+      "year": "2014",
+      "make": "Rolls-Royce",
+      "model": "Ghost",
+      "trim": "",
+      "label": "2014 Rolls-Royce Ghost ",
+      "stockNum": "P1054",
+      "acode": "USC40RRC071A0",
+      "pricing": {
+        "display": [
+          {
+            "label": "Price&colon;",
+            "value": "&dollar;146,888",
+            "attributes": {
+              "class": "base-price"
+            }
+          }
+        ],
+        "data": {
+          "msrp": 0,
+          "internet": 146888,
+          "override": {
+            "cms": {
+              "total": 0,
+              "items": []
+            }
+          },
+          "discount": {
+            "total": 0,
+            "cms": {
+              "total": 0,
+              "items": []
+            },
+            "dms": {
+              "total": 0,
+              "items": []
+            }
+          },
+          "markup": {
+            "total": 0,
+            "cms": {
+              "total": 0,
+              "items": []
+            },
+            "dms": {
+              "total": 0,
+              "items": []
+            }
+          },
+          "incentive": {
+            "total": 0,
+            "conditionalTotal": 0,
+            "items": [],
+            "conditional": [],
+            "select": []
+          },
+          "final": 146888,
+          "conditional": 0,
+          "feed": {
+            "internet": 146888,
+            "invoice": null,
+            "priceFinal": 146888,
+            "onSale": false,
+            "range": {
+              "low": 295850,
+              "high": 329325
+            }
+          }
+        }
+      },
+      "historicalPricing": [],
+      "monthlyPayment": [],
+      "engine": {
+        "nameFull": "6.6L V12 DGI DOHC 48V Twin Turbocharged",
+        "nameSimple": "6.6L V12 DGI DOHC 48V Twin Turbocharged",
+        "size": "6.6L",
+        "cylinders": null,
+        "fuel": "Gasoline",
+        "mpgCity": "13",
+        "mpgHwy": "21",
+        "mpgE": null
+      },
+      "transmission": {
+        "description": "",
+        "driveTypeAbbr": "RWD",
+        "driveTypeDesc": "Rear-wheel Drive",
+        "speeds": "8",
+        "type": "Automatic"
+      },
+      "bodyStyle": "Sedan",
+      "doors": "4",
+      "mileage": "14493",
+      "history": {
+        "daysInStock": "458",
+        "prevOwners": null
+      },
+      "color": {
+        "exterior": {
+          "name": "Diamond Black",
+          "generic": "Black",
+          "code": "",
+          "hex": null,
+          "rgb": null
+        },
+        "interior": {
+          "name": "Moccasin/seashell",
+          "generic": "Moccasin/seashell",
+          "code": "",
+          "hex": "",
+          "rgb": ""
+        }
+      },
+      "media": {
+        "image": {
+          "thumb": {
+            "src": "https://secure.images.demo.dev.pixelmotiondemo.com/thumbs/rolls-roycemotorcarsoc/SCA664S54EUX52719/KK57V-20190310163821.jpg",
+            "flip": 0,
+            "rotate": 0
+          },
+          "detail": "http://vehicle-photos-published.vauto.com/7d/15/2a/6c-17de-4d7f-aa98-10fda62d9376/image-1.jpg"
+        },
+        "video": ""
+      },
+      "status": "available",
+      "in_transit": false,
+      "featured": false,
+      "advertisement": "This is a Low Mile, Well Maintained and Local/One Owner 2014 Rolls-Royce Ghost. <br><br>Exterior:<br>Diamond Black<br><br>Interior:<br>Moccasin<br>Seashell<br><br>Dealer Options:<br>Driver's Assistance 1<br>Camera System<br>Comfort Entry System<br>Panorama Sunroof<br>Front Ventilated Seats<br>Front Massage Seats<br>Individual Rear Seat Configuration<br>Adaptive Headlights<br>Natural Grain Leather<br>Lane Departure Warning<br>Head-Up Display<br>Picnic Tables<br>20'' Alloy Wheels",
+      "dealerComments": "",
+      "vehicleCodes": {
+        "autodata": "USC40RRC071A0",
+        "year": "C40",
+        "engine": ["RR01", "RR04"],
+        "language": "EN",
+        "manufacturer": "GHOST",
+        "engineOption": "STDEN",
+        "installed": null
+      },
+      "accessories": [],
+      "pricingIncentive": [],
+      "flags": ["carfax-1-owner"],
+      "vdp_href": "/inventory/display/used/certified/2014/Rolls-Royce/Ghost/SCA664S54EUX52719",
+      "incentives": {
+        "bestOffer": [],
+        "select": [],
+        "conditional": []
+      },
+      "installedOptions": [
+        "DVD / Entertainment",
+        "Memory Seats",
+        "Navigation System",
+        "Rain Sensing Wipers",
+        "Rear Air Conditioning"
+      ],
+      "stats": [
+        {
+          "label": "Year&colon;",
+          "value": "2014",
+          "attributes": {
+            "class": "vlp-vehicle-year"
+          }
+        },
+        {
+          "label": "Exterior Color&colon;",
+          "value": "Diamond Black",
+          "attributes": {
+            "class": "vlp-item-color-exterior"
+          }
+        },
+        {
+          "label": "Interior Color&colon;",
+          "value": "Moccasin/seashell",
+          "attributes": {
+            "class": "vlp-item-color-interior"
+          }
+        },
+        {
+          "label": "Mileage&colon;",
+          "value": 14493,
+          "attributes": {
+            "class": "vlp-item-mileage"
+          }
+        }
+      ],
+      "cta_row": [
+        {
+          "element": "a",
+          "label": " View Details",
+          "icon": "",
+          "attributes": {
+            "href": "/inventory/display/used/2014/Rolls-Royce/Ghost/SCA664S54EUX52719",
+            "class": "cta-button btn view-details-btn"
+          }
+        }
+      ],
+      "cta_column": [],
+      "misc_display": []
+    }
+  ]
+}
