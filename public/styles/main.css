@@ -1,4 +1,33 @@
-.test {
-  background-color: white; }
+body,
+p,
+div,
+ul,
+li,
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Open Sans', sans-serif; }
+
+#product-gallery-slideshow .product-gallery-image {
+  width: 100%; }
+#product-gallery-slideshow .slick-prev {
+  left: 0px;
+  z-index: 999;
+  background-color: #fff;
+  padding-top: 15px;
+  padding-bottom: 35px;
+  cursor: pointer; }
+  #product-gallery-slideshow .slick-prev:before {
+    color: #aaa; }
+#product-gallery-slideshow .slick-next {
+  right: 0px;
+  z-index: 999;
+  background-color: #fff;
+  padding-top: 15px;
+  padding-bottom: 35px;
+  cursor: pointer; }
+  #product-gallery-slideshow .slick-next:before {
+    color: #aaa; }
 
 /*# sourceMappingURL=main.css.map */
