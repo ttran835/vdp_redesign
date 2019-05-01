@@ -1,0 +1,33 @@
+/* functions, vars and media Queries */
+
+$breakpoints: (
+  sm: 768px,
+  md: 992px,
+  lg: 1200px,
+  xtra-lg: 1800px,
+  2xtra-lg: 2400px,
+  3xtra-lg: 3000px,
+);
+
+@mixin screen-queries-min-width($breakpoint) {
+  @if map-has-key($breakpoints, $breakpoint) {
+    $breakpoint-value: map-get($breakpoints, $breakpoint);
+    @media (min-width: $breakpoint-value) {
+      @content;
+    }
+  }
+  else {
+    @warn 'breakpoint is invalid at #{$breakpoint}';
+  }
+}
+
+/* To set container to larger width after 1800px */
+
+.container {
+  @include screen-queries-min-width('xtra-lg') {
+    width: 1692px !important;
+  }
+  @media (min-width: 1600px) {
+    width: 1460px !important;
+  }
+}

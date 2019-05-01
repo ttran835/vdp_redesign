@@ -18,14 +18,13 @@
     />
   </head>
   <body>
-    <h1>
-      Hello there
-    </h1>
-    <div>
-      <?php require 'components/inventory-main.php';?>
-    </div>
-    <div>
-        <?php require 'components/row_1/img-carousel/img_carousel.php'; ?>
+    <div class='container'>
+      <h1>
+        Hello
+      </h1>
+      <div class='row'>
+        <?php include './components/inventory-main.php'?>
+      </div>
     </div>
     <script
       src="https://code.jquery.com/jquery-1.12.4.min.js"
@@ -37,8 +36,7 @@
       type="text/javascript"
       src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
     ></script>
-    <script type="text/javascript" src="http://vdp-redesign.com/VDP.js"></script>
-    <script type="text/javascript" src="components/row_1/img-carousel/img_carousel.js"></script>
-    <script type="text/javascript" src="components/row_1/img-carousel/img_carousel.js"></script>
+    <script type="text/javascript" src="components/row_1/img_carousel/img_carousel.js"></script>
+    <!-- <script type="text/javascript" src="http://vdp-redesign.com/VDP.js"></script> -->
   </body>
 </html>

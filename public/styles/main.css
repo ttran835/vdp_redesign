@@ -1,3 +1,12 @@
+/* functions, vars and media Queries */
+/* To set container to larger width after 1800px */
+@media (min-width: 1800px) {
+  .container {
+    width: 1692px !important; } }
+@media (min-width: 1600px) {
+  .container {
+    width: 1460px !important; } }
+
 body,
 p,
 div,
