@@ -1,3 +1,95 @@
+/* css for site consistency */
+
+/*colors for site*/
+
+$primary-test-color: #fefefe;
+$secondary-test-color: #f4f4f4;
+
+$primary-font-color: #000;
+$secondary-font-color: #fff;
+
+$primary-border-color: #fff;
+
+$primary-border-section-color: #d5d5d5;
+
+$primary-border-background-color: #000;
+$secondary-border-background-color: #444;
+
+$inventory-primary-color: #fefefe;
+$inventory-secondary-color: #fff;
+$vdp-border-color: #dbdbdb;
+$vdp-border-secondary-color: #f1f1f1;
+
+$parallax-default-height: 500px;
+$title-font-size: 4rem;
+
+$cta-title-font-size: 2.3rem;
+
+@mixin page-title-border-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  border: 3px solid $primary-border-color;
+  padding: 30px 30px 25px;
+  padding-top: 0;
+}
+
+@mixin a-tag-button-style {
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  border: 2px solid $primary-border-color;
+  font-weight: 560;
+  padding: 5px 25px 8px;
+  letter-spacing: normal;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: $secondary-font-color;
+  &:hover {
+    color: $primary-font-color;
+    background-color: $primary-border-color !important;
+  }
+}
+
+@mixin vlp-vdp-a-tag-btn {
+  display: block;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 15px auto;
+  border: solid thin #000;
+  font-weight: 700;
+  padding: 15px 40px;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  cursor: pointer;
+  &:hover {
+    background-color: #000;
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    color: $secondary-font-color !important;
+  }
+  &:focus {
+    outline: 0;
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  &:active {
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2);
+  }
+}
+
 /* functions, vars and media Queries */
 
 $breakpoints: (
@@ -21,13 +113,81 @@ $breakpoints: (
   }
 }
 
+/* css effects */
+
+@mixin ui-shadow-with-hover {
+  -webkit-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2),
+    0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2),
+    0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12);
+  -webkit-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  -o-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  -webkit-transition: all 0.7s cubic-bezier(0.25, 0.8, 0.25, 1);
+  -o-transition: all 0.7s cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition: all 0.7s cubic-bezier(0.25, 0.8, 0.25, 1);
+  &:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+}
+
+@mixin ui-shadow-no-hover {
+  -webkit-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2),
+    0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2),
+    0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12);
+}
+
+@mixin opacity-changer {
+  opacity: 0.6;
+  -webkit-transition: opacity 0.7s;
+  -o-transition: opacity 0.7s;
+  transition: opacity 0.7s;
+  &:hover {
+    opacity: 1;
+  }
+}
+
+@mixin gray-img-filter {
+  -webkit-filter: none;
+  filter: none;
+  -webkit-transition: -webkit-filter 0.5s;
+  transition: -webkit-filter 0.5s;
+  -o-transition: filter 0.5s;
+  transition: filter 0.5s;
+  transition: filter 0.5s, -webkit-filter 0.5s;
+  &:hover {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+  &:active {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+}
+
+@mixin text-box-shadow {
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background-color: none;
+  cursor: pointer;
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
+  }
+}
+
 /* To set container to larger width after 1800px */
 
 .container {
-  @include screen-queries-min-width('xtra-lg') {
-    width: 1692px !important;
-  }
   @media (min-width: 1600px) {
     width: 1460px !important;
+  }
+  @include screen-queries-min-width('xtra-lg') {
+    width: 1692px !important;
   }
 }

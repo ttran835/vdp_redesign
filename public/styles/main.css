@@ -1,11 +1,26 @@
+/* css for site consistency */
+/*colors for site*/
 /* functions, vars and media Queries */
+/* css effects */
 /* To set container to larger width after 1800px */
-@media (min-width: 1800px) {
-  .container {
-    width: 1692px !important; } }
 @media (min-width: 1600px) {
   .container {
     width: 1460px !important; } }
+@media (min-width: 1800px) {
+  .container {
+    width: 1692px !important; } }
+
+/* css for site consistency */
+/*colors for site*/
+/* functions, vars and media Queries */
+/* css effects */
+/* To set container to larger width after 1800px */
+@media (min-width: 1600px) {
+  .container {
+    width: 1460px !important; } }
+@media (min-width: 1800px) {
+  .container {
+    width: 1692px !important; } }
 
 body,
 p,
@@ -38,5 +53,101 @@ h4 {
   cursor: pointer; }
   #product-gallery-slideshow .slick-next:before {
     color: #aaa; }
+
+/* css for site consistency */
+/*colors for site*/
+/* functions, vars and media Queries */
+/* css effects */
+/* To set container to larger width after 1800px */
+@media (min-width: 1600px) {
+  .container {
+    width: 1460px !important; } }
+@media (min-width: 1800px) {
+  .container {
+    width: 1692px !important; } }
+
+/* specification css section */
+#specification-content table {
+  line-height: 17px;
+  color: #444;
+  margin-bottom: 0px;
+  border-color: transparent !important;
+  background: transparent !important;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%; }
+  #specification-content table tbody {
+    border-color: transparent !important;
+    background: transparent !important;
+    border: solid thin #f1f1f1; }
+    #specification-content table tbody tr {
+      display: block;
+      width: 100%;
+      margin-bottom: 15px;
+      border-bottom: solid thin #dbdbdb; }
+      #specification-content table tbody tr th {
+        text-align: center;
+        text-transform: uppercase;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-transform: uppercase;
+        font-size: 18px;
+        font-weight: bold;
+        color: #000;
+        padding: 0.5rem 0.625rem 0.625rem; }
+      #specification-content table tbody tr td {
+        width: 120px;
+        border-color: transparent !important;
+        background: transparent !important;
+        padding: 0.5rem 0.625rem 0.625rem; }
+        #specification-content table tbody tr td:nth-child(odd) {
+          font-weight: 600; }
+        #specification-content table tbody tr td:nth-child(even) {
+          font-weight: 400; }
+#specification-content .vdp-cta {
+  background: #fefefe;
+  text-align: center;
+  padding-bottom: 1px; }
+  #specification-content .vdp-cta a {
+    width: 100%;
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 15px auto;
+    border: solid thin #000;
+    font-weight: 700;
+    padding: 15px 40px;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    cursor: pointer;
+    color: #000; }
+    #specification-content .vdp-cta a:hover {
+      background-color: #000;
+      -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+      color: #fff !important; }
+    #specification-content .vdp-cta a:focus {
+      outline: 0;
+      -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); }
+    #specification-content .vdp-cta a:active {
+      -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2);
+      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2); }
+    @media (min-width: 1200px) {
+      #specification-content .vdp-cta a {
+        width: 55%; } }
+    #specification-content .vdp-cta a .fa {
+      color: #000;
+      -webkit-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s; }
+    #specification-content .vdp-cta a:hover .fa {
+      color: #fff; }
+  #specification-content .vdp-cta p {
+    font-weight: 600; }
 
 /*# sourceMappingURL=main.css.map */

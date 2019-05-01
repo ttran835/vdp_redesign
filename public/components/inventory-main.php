@@ -39,14 +39,17 @@
 
 <!-- <h1 id="vehicle-name" class="vehicle-name<?php /* echo 
   PM_MOTORS_SITE_TOKEN !== 'nchonda' ? ' text-uppercase' : ''; ?>"><?php echo $vehicle->label . $editButton; */?></h1> -->
-<div class="row" id="name-and-price">
+
+<div class="col-xs-12" id="name-and-price">
   <h1>Where Vehicle Title will be</h1>
   <h1>
     <?php 
-      if ('in_transit' === 'in_transit') {
-    ?>
-        In Transit
-    <?php
+      if ('$vehicle->status' === 'in_transit') {
+        echo 'In Transit';
+      } else if ('$vehicle->status' === 'call_for_price') {
+        echo 'Call for Price';
+      } else {
+        echo 'Temporary Car Title';
       }
     ?>
   </h1>
