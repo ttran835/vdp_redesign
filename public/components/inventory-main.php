@@ -39,7 +39,18 @@
 
 <!-- <h1 id="vehicle-name" class="vehicle-name<?php /* echo 
   PM_MOTORS_SITE_TOKEN !== 'nchonda' ? ' text-uppercase' : ''; ?>"><?php echo $vehicle->label . $editButton; */?></h1> -->
-<h1>Where Vehicle Title will be</h1>
+<div class="row" id="name-and-price">
+  <h1>Where Vehicle Title will be</h1>
+  <h1>
+    <?php 
+      if ('in_transit' === 'in_transit') {
+    ?>
+        In Transit
+    <?php
+      }
+    ?>
+  </h1>
+</div>
 <div id="vehicle-display">
   <div id="image-and-specs" class="row">
     <!-- Section to render carousel Images -->
