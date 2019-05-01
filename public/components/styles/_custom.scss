@@ -24,10 +24,10 @@ $breakpoints: (
 /* To set container to larger width after 1800px */
 
 .container {
-  @include screen-queries-min-width('xtra-lg') {
-    width: 1692px !important;
-  }
   @media (min-width: 1600px) {
-    width: 1460px !important;
+    width: 1460px;
+  }
+  @include screen-queries-min-width('xtra-lg') {
+    width: 1692px;
   }
 }

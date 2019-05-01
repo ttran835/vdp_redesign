@@ -34,5 +34,5 @@
    <div><img src='https://secure.images.demo.dev.pixelmotiondemo.com/inventory/rolls-roycemotorcarsoc/SCA664S50KUX54723/O3RIi-20190413161836.jpg' class='img img-responsive'></div>
    <div><img src='https://secure.images.demo.dev.pixelmotiondemo.com/inventory/rolls-roycemotorcarsoc/SCA664S50KUX54723/O3RIi-20190413161836.jpg' class='img img-responsive'></div>
   </div>
-<div>
+</div>
      
