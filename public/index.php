@@ -37,6 +37,7 @@
       src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
     ></script>
     <script type="text/javascript" src="components/row_1/img_carousel/img_carousel.js"></script>
+    <script type="text/javascript" src="components/row_2/key_info/key_info.js"></script>
     <!-- <script type="text/javascript" src="http://vdp-redesign.com/VDP.js"></script> -->
   </body>
 </html>
