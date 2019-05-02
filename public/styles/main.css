@@ -188,7 +188,7 @@ h4 {
         color: #000; }
   #key-info-and-vid #key-info .vehicle-details {
     overflow: hidden;
-    max-height: 155px;
+    height: 155px;
     transition: all 0.5s; }
     #key-info-and-vid #key-info .vehicle-details p {
       line-height: 1.6;

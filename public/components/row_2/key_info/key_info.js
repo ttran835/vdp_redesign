@@ -1,18 +1,37 @@
 $(document).ready(function() {
   console.log('initialized key_info?');
 
+  // getting all elements
   var ctaBtn = $('.vdp-cta > a');
   var readMore = $('#read-more-btn');
   var readLess = $('#read-less-btn');
   var vehicleDetails = $('.vehicle-details');
 
+  // to set timer
+  var animateTime = 300;
+
+  // function to show and hide dealer comments
+  ctaBtn.on('click', function() {
+    if (vehicleDetails.height() === 155) {
+      animatedHeight(vehicleDetails, animateTime);
+    } else {
+      vehicleDetails.animate(
+        {
+          height: '155',
+        },
+        animateTime
+      );
+    }
+  });
+
+  // function to change text in a tag btn
   ctaBtn.on('click', function() {
     if (readMore.css('display').toLowerCase() === 'block') {
       readMore.animate(
         {
           display: 'none',
         },
-        500,
+        animateTime,
         function() {
           $(this).css('display', 'none');
         }
@@ -21,29 +40,45 @@ $(document).ready(function() {
         {
           display: 'block',
         },
-        500,
+        animateTime,
         function() {
           $(this).css('display', 'block');
         }
       );
-      vehicleDetails.animate(
+    } else {
+      readLess.animate(
         {
-          maxHeight: '155px',
+          display: 'none',
         },
-        1000,
+        animateTime,
         function() {
-          $(this).css('max-height', 'fit-content');
+          $(this).css('display', 'none');
+        }
+      );
+      readMore.animate(
+        {
+          display: 'block',
+        },
+        animateTime,
+        function() {
+          $(this).css('display', 'block');
         }
       );
     }
   });
-  readMore.on('click', function() {
-    vehicleDetails.animate('max-height', 'fit-content');
-  });
 
-  readLess.on('click', function() {
-    readLess.animate('display', 'none');
-    readMore.animate('display', 'block');
-    vehicleDetails.animate('max-height', '155px');
-  });
+  // function to handle height and overflow animation;
+  var animatedHeight = function(el, timer) {
+    var currentHeight = el.height();
+    var showContent = el.css('height', 'auto').height();
+    // resetting element to previous height if clicked again
+    el.height(currentHeight);
+    // to set to actual div height
+    el.animate(
+      {
+        height: showContent,
+      },
+      timer
+    );
+  };
 });
