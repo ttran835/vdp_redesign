@@ -22,6 +22,66 @@
   .container {
     width: 1692px !important; } }
 
+/* scss file to used for global */
+#vehicle-display {
+  background-color: #fefefe; }
+
+.vdp-cta {
+  background: #fefefe;
+  text-align: center;
+  padding-bottom: 1px;
+  text-decoration: none !important; }
+  .vdp-cta a {
+    width: 100%;
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none !important;
+    margin: 15px auto;
+    border: solid thin #000;
+    font-weight: 700;
+    padding: 15px 40px;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    cursor: pointer;
+    color: #000; }
+    .vdp-cta a:hover {
+      background-color: #000;
+      -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+      color: #fff !important; }
+    .vdp-cta a:focus {
+      outline: 0;
+      -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); }
+    .vdp-cta a:active {
+      -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2);
+      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2); }
+    @media (min-width: 1200px) {
+      .vdp-cta a {
+        width: 55%; } }
+    .vdp-cta a .fa {
+      color: #000;
+      -webkit-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s; }
+    .vdp-cta a:hover .fa {
+      color: #fff; }
+
+/* css for site consistency */
+/*colors for site*/
+/* functions, vars and media Queries */
+/* css effects */
+/* To set container to larger width after 1800px */
+@media (min-width: 1600px) {
+  .container {
+    width: 1460px !important; } }
+@media (min-width: 1800px) {
+  .container {
+    width: 1692px !important; } }
+
 body,
 p,
 div,
@@ -105,49 +165,53 @@ h4 {
           font-weight: 600; }
         #specification-content table tbody tr td:nth-child(even) {
           font-weight: 400; }
-#specification-content .vdp-cta {
-  background: #fefefe;
-  text-align: center;
-  padding-bottom: 1px; }
-  #specification-content .vdp-cta a {
-    width: 100%;
-    display: block;
-    text-transform: uppercase;
-    text-decoration: none;
-    margin: 15px auto;
-    border: solid thin #000;
-    font-weight: 700;
-    padding: 15px 40px;
-    -webkit-transition: all 0.5s;
-    -o-transition: all 0.5s;
-    transition: all 0.5s;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    cursor: pointer;
-    color: #000; }
-    #specification-content .vdp-cta a:hover {
-      background-color: #000;
-      -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-      color: #fff !important; }
-    #specification-content .vdp-cta a:focus {
-      outline: 0;
-      -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); }
-    #specification-content .vdp-cta a:active {
-      -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2);
-      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2); }
-    @media (min-width: 1200px) {
-      #specification-content .vdp-cta a {
-        width: 55%; } }
-    #specification-content .vdp-cta a .fa {
-      color: #000;
-      -webkit-transition: all 0.5s;
-      -o-transition: all 0.5s;
-      transition: all 0.5s; }
-    #specification-content .vdp-cta a:hover .fa {
-      color: #fff; }
-  #specification-content .vdp-cta p {
-    font-weight: 600; }
+#specification-content p {
+  font-weight: 600; }
+
+/* css for keyinfo and video */
+#key-info-and-vid h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #000;
+  margin: 0 0 25px;
+  border-bottom: solid thin #dbdbdb; }
+#key-info-and-vid #key-info {
+  display: flex; }
+  #key-info-and-vid #key-info .bullet-points {
+    display: flex;
+    margin-bottom: 10px; }
+    #key-info-and-vid #key-info .bullet-points ul {
+      padding-left: 15px; }
+      #key-info-and-vid #key-info .bullet-points ul li {
+        line-height: 1.6;
+        font-size: 1.6rem;
+        color: #000; }
+  #key-info-and-vid #key-info .vehicle-details {
+    overflow: hidden;
+    max-height: 155px;
+    transition: all 0.5s; }
+    #key-info-and-vid #key-info .vehicle-details p {
+      line-height: 1.6;
+      font-size: 1.6rem;
+      color: #000; }
+  #key-info-and-vid #key-info .vdp-cta {
+    display: flex;
+    flex-direction: column; }
+    #key-info-and-vid #key-info .vdp-cta a {
+      width: 50%;
+      padding: 10px 20px; }
+      @media (min-width: 1200px) {
+        #key-info-and-vid #key-info .vdp-cta a {
+          width: 20%; } }
+    #key-info-and-vid #key-info .vdp-cta #read-more-btn {
+      transition: ease-in-out 0.5s;
+      display: block; }
+    #key-info-and-vid #key-info .vdp-cta #read-less-btn {
+      transition: ease-in-out 0.5s;
+      display: none; }
+#key-info-and-vid #video {
+  display: flex;
+  flex-direction: row;
+  height: 325px; }
 
 /*# sourceMappingURL=main.css.map */

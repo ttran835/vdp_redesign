@@ -1,0 +1,30 @@
+@import './custom';
+/* scss file to used for global */
+
+#vehicle-display {
+  background-color: $inventory-primary-color;
+}
+
+.vdp-cta {
+  background: #fefefe;
+  text-align: center;
+  padding-bottom: 1px;
+  text-decoration: none !important;
+  a {
+    width: 100%;
+    @include vlp-vdp-a-tag-btn;
+    color: $primary-font-color;
+    @include screen-queries-min-width('lg') {
+      width: 55%;
+    }
+    .fa {
+      color: $primary-font-color;
+      -webkit-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s;
+    }
+    &:hover .fa {
+      color: $secondary-font-color;
+    }
+  }
+}

@@ -1,0 +1,60 @@
+/* css for keyinfo and video */
+#key-info-and-vid {
+  h3 {
+    font-size: $vdp-title-font-size;
+    font-weight: 600;
+    color: $primary-font-color;
+    margin: 0 0 25px;
+    border-bottom: solid thin $vdp-border-color;
+  }
+  #key-info {
+    display: flex;
+    .bullet-points {
+      display: flex;
+      margin-bottom: 10px;
+      ul {
+        padding-left: 15px;
+        li {
+          line-height: 1.6;
+          font-size: 1.6rem;
+          color: $primary-font-color;
+        }
+      }
+    }
+    .vehicle-details {
+      overflow: hidden;
+      max-height: 155px;
+      transition: all 0.5s;
+      p {
+        line-height: 1.6;
+        font-size: 1.6rem;
+        color: $primary-font-color;
+      }
+    }
+    .vdp-cta {
+      display: flex;
+      flex-direction: column;
+      a {
+        width: 50%;
+        padding: 10px 20px;
+        @include screen-queries-min-width('lg') {
+          width: 20%;
+        }
+      }
+      #read-more-btn {
+        transition: ease-in-out 0.5s;
+        display: block;
+      }
+      #read-less-btn {
+        transition: ease-in-out 0.5s;
+        display: none;
+      }
+    }
+  }
+
+  #video {
+    display: flex;
+    flex-direction: row;
+    height: 325px;
+  }
+}

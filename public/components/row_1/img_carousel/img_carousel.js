@@ -1,10 +1,19 @@
 $(document).ready(function() {
-  console.log('initialized?');
+  console.log('initialized img_carousel?');
+  var slidesToShow = 5;
+  var slidesAvailable = $('.product-gallery-nav').children().length - 1;
+  if (slidesAvailable && slidesToShow > slidesAvailable) {
+    slidesToShow = slidesAvailable;
+  }
+
   $('#product-gallery-detail').slick({
     lazyLoad: 'ondemand',
+    fade: true,
+    speed: 500,
     autoplay: true,
     infinite: true,
     asNavFor: '.product-gallery-nav',
+    cssEase: 'linear',
     responsive: [
       {
         breakpoint: 992,
@@ -16,8 +25,9 @@ $(document).ready(function() {
       },
     ],
   });
+
   $('.product-gallery-nav').slick({
-    slidesToShow: 4,
+    slidesToShow: slidesToShow,
     slidesToScroll: 1,
     asNavFor: '#product-gallery-detail',
     focusOnSelect: true,

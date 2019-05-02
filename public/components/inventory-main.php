@@ -54,9 +54,13 @@
     ?>
   </h1>
 </div>
+
 <div id="vehicle-display">
   <div id="image-and-specs" class="row">
     <!-- Section to render carousel Images -->
-    <?php require './components/row_1/img_and_specs.php'?>
+    <?php require_once ('./components/row_1/img_and_specs.php'); ?>
+  </div>
+  <div id="key-info-and-vid" class="row">
+    <?php require_once ('./components/row_2/key_info_and_vid.php'); ?>
   </div>
 </div>
