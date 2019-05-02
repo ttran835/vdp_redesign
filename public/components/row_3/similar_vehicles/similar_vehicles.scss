@@ -1,0 +1,77 @@
+@import '../../styles/custom';
+
+/* featured vehicle section */
+/*
+  mobile
+  padding: 10px 15px;
+  height: 80.5%
+  width: 90%
+  bottom 45px;
+  left: 15px;
+  
+  Need to move the reference overlay into inside similar-vehicle-imagery
+*/
+#rolls-royce-similar-vehicles {
+  background-color: $inventory-primary-color;
+  margin: 40px 0;
+  padding: 20px 0;
+  @include screen-queries-min-width('md') {
+    margin: 10px 0;
+    padding: 0;
+  }
+  .single-similar-vehicle {
+    .similar-vehicle-imagery {
+      position: relative;
+      img {
+        @include ui-shadow-no-hover;
+      }
+    }
+    .similar-vehicle-name {
+      margin-top: 5px;
+    }
+    .simiar-vehicle-price {
+      margin-bottom: 5px;
+    }
+    @include gray-img-filter;
+    .reference-overlay {
+      display: block;
+      position: absolute;
+      z-index: 20;
+      background: rgba(0, 0, 0, 0.4);
+      overflow: hidden;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 0;
+      -webkit-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s;
+      @include screen-queries-min-width('lg') {
+        width: 89.5%;
+      }
+      a {
+        @include text-box-shadow;
+        @include a-tag-button-style;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        background-color: transparent;
+        border-color: #fff;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: $secondary-font-color;
+        padding: 5px 15px;
+        text-decoration: none;
+        @include screen-queries-min-width('lg') {
+          padding: 10px 15px;
+        }
+      }
+    }
+    &:hover .reference-overlay {
+      height: 100%;
+    }
+  }
+}

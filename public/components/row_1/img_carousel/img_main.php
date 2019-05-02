@@ -1,4 +1,4 @@
-<div id="product-gallery-slideshow" class="product-gallery-slideshow">
+<div id="product-gallery-slideshow" class="product-gallery-slideshow" >
   <div id="product-gallery-detail">
     <?php 
     // to rotate images into the correct position
