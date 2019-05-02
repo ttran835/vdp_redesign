@@ -38,6 +38,7 @@
     ></script>
     <script type="text/javascript" src="components/row_1/img_carousel/img_carousel.js"></script>
     <script type="text/javascript" src="components/row_2/key_info/key_info.js"></script>
+    <script type="text/javascript" src="components/row_3/similar_vehicles/similar_vehicles.js"></script>
     <!-- <script type="text/javascript" src="http://vdp-redesign.com/VDP.js"></script> -->
   </body>
 </html>

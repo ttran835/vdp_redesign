@@ -61,6 +61,11 @@
     <?php require_once ('./components/row_1/img_and_specs.php'); ?>
   </div>
   <div id="key-info-and-vid" class="row">
+    <!-- Section to render key info and vid -->
     <?php require_once ('./components/row_2/key_info_and_vid.php'); ?>
+  </div>
+    <!-- Section for similar vehicles -->
+  <div id="rolls-royce-similar-vehicles" class="row hidden">
+    <?php require_once ('./components/row_3/similar_vehicles/similar_vehicles.php') ?>
   </div>
 </div>

@@ -22,53 +22,58 @@
   .container {
     width: 1692px !important; } }
 
-/* scss file to used for global */
+/* scss file to used for vdp global*/
 #vehicle-display {
   background-color: #fefefe; }
-
-.vdp-cta {
-  background: #fefefe;
-  text-align: center;
-  padding-bottom: 1px;
-  text-decoration: none !important; }
-  .vdp-cta a {
-    width: 100%;
-    display: block;
-    text-transform: uppercase;
-    text-decoration: none !important;
-    margin: 15px auto;
-    border: solid thin #000;
-    font-weight: 700;
-    padding: 15px 40px;
-    -webkit-transition: all 0.5s;
-    -o-transition: all 0.5s;
-    transition: all 0.5s;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    cursor: pointer;
-    color: #000; }
-    .vdp-cta a:hover {
-      background-color: #000;
-      -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-      color: #fff !important; }
-    .vdp-cta a:focus {
-      outline: 0;
-      -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); }
-    .vdp-cta a:active {
-      -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2);
-      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2); }
-    @media (min-width: 1200px) {
-      .vdp-cta a {
-        width: 55%; } }
-    .vdp-cta a .fa {
-      color: #000;
+  #vehicle-display h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #000;
+    margin: 0 0 25px;
+    border-bottom: solid thin #dbdbdb; }
+  #vehicle-display .vdp-cta {
+    background: #fefefe;
+    text-align: center;
+    padding-bottom: 1px;
+    text-decoration: none !important; }
+    #vehicle-display .vdp-cta a {
+      width: 100%;
+      display: block;
+      text-transform: uppercase;
+      text-decoration: none !important;
+      margin: 15px auto;
+      border: solid thin #000;
+      font-weight: 700;
+      padding: 15px 40px;
       -webkit-transition: all 0.5s;
       -o-transition: all 0.5s;
-      transition: all 0.5s; }
-    .vdp-cta a:hover .fa {
-      color: #fff; }
+      transition: all 0.5s;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      cursor: pointer;
+      color: #000; }
+      #vehicle-display .vdp-cta a:hover {
+        background-color: #000;
+        -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        color: #fff !important; }
+      #vehicle-display .vdp-cta a:focus {
+        outline: 0;
+        -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); }
+      #vehicle-display .vdp-cta a:active {
+        -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2); }
+      @media (min-width: 1200px) {
+        #vehicle-display .vdp-cta a {
+          width: 55%; } }
+      #vehicle-display .vdp-cta a .fa {
+        color: #000;
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s; }
+      #vehicle-display .vdp-cta a:hover .fa {
+        color: #fff; }
 
 /* css for site consistency */
 /*colors for site*/
@@ -169,12 +174,6 @@ h4 {
   font-weight: 600; }
 
 /* css for keyinfo and video */
-#key-info-and-vid h3 {
-  font-size: 2rem;
-  font-weight: 600;
-  color: #000;
-  margin: 0 0 25px;
-  border-bottom: solid thin #dbdbdb; }
 #key-info-and-vid #key-info {
   display: flex; }
   #key-info-and-vid #key-info .bullet-points {
@@ -199,7 +198,8 @@ h4 {
     flex-direction: column; }
     #key-info-and-vid #key-info .vdp-cta a {
       width: 50%;
-      padding: 10px 20px; }
+      padding: 10px 20px;
+      margin: 5px !important auto; }
       @media (min-width: 1200px) {
         #key-info-and-vid #key-info .vdp-cta a {
           width: 20%; } }
@@ -213,5 +213,119 @@ h4 {
   display: flex;
   flex-direction: row;
   height: 325px; }
+
+/* css for site consistency */
+/*colors for site*/
+/* functions, vars and media Queries */
+/* css effects */
+/* To set container to larger width after 1800px */
+@media (min-width: 1600px) {
+  .container {
+    width: 1460px !important; } }
+@media (min-width: 1800px) {
+  .container {
+    width: 1692px !important; } }
+
+/* featured vehicle section */
+/*
+  mobile
+  padding: 10px 15px;
+  height: 80.5%
+  width: 90%
+  bottom 45px;
+  left: 15px;
+  
+  Need to move the reference overlay into inside similar-vehicle-imagery
+*/
+#rolls-royce-similar-vehicles {
+  background-color: #fefefe;
+  margin: 40px 0;
+  padding: 20px 0; }
+  @media (min-width: 992px) {
+    #rolls-royce-similar-vehicles {
+      margin: 10px 0;
+      padding: 0; } }
+  #rolls-royce-similar-vehicles .single-similar-vehicle {
+    -webkit-filter: none;
+    filter: none;
+    -webkit-transition: -webkit-filter 0.5s;
+    transition: -webkit-filter 0.5s;
+    -o-transition: filter 0.5s;
+    transition: filter 0.5s;
+    transition: filter 0.5s, -webkit-filter 0.5s; }
+    #rolls-royce-similar-vehicles .single-similar-vehicle .similar-vehicle-imagery {
+      position: relative; }
+      #rolls-royce-similar-vehicles .single-similar-vehicle .similar-vehicle-imagery img {
+        -webkit-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12);
+        box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12); }
+    #rolls-royce-similar-vehicles .single-similar-vehicle .similar-vehicle-name {
+      margin-top: 5px; }
+    #rolls-royce-similar-vehicles .single-similar-vehicle .simiar-vehicle-price {
+      margin-bottom: 5px; }
+    #rolls-royce-similar-vehicles .single-similar-vehicle:hover {
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%); }
+    #rolls-royce-similar-vehicles .single-similar-vehicle:active {
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%); }
+    #rolls-royce-similar-vehicles .single-similar-vehicle .reference-overlay {
+      display: block;
+      position: absolute;
+      z-index: 20;
+      background: rgba(0, 0, 0, 0.4);
+      overflow: hidden;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 0;
+      -webkit-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s; }
+      @media (min-width: 1200px) {
+        #rolls-royce-similar-vehicles .single-similar-vehicle .reference-overlay {
+          width: 89.5%; } }
+      #rolls-royce-similar-vehicles .single-similar-vehicle .reference-overlay a {
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        background-color: none;
+        cursor: pointer;
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s;
+        border: 2px solid #fff;
+        font-weight: 560;
+        padding: 5px 25px 8px;
+        letter-spacing: normal;
+        text-transform: uppercase;
+        cursor: pointer;
+        color: #fff;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        background-color: transparent;
+        border-color: #fff;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: #fff;
+        padding: 5px 15px;
+        text-decoration: none; }
+        #rolls-royce-similar-vehicles .single-similar-vehicle .reference-overlay a:hover {
+          background-color: rgba(255, 255, 255, 0.2);
+          -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
+          box-shadow: 0 0 30px rgba(0, 0, 0, 0.8); }
+        #rolls-royce-similar-vehicles .single-similar-vehicle .reference-overlay a:hover {
+          color: #000;
+          background-color: #fff !important; }
+        @media (min-width: 1200px) {
+          #rolls-royce-similar-vehicles .single-similar-vehicle .reference-overlay a {
+            padding: 10px 15px; } }
+    #rolls-royce-similar-vehicles .single-similar-vehicle:hover .reference-overlay {
+      height: 100%; }
 
 /*# sourceMappingURL=main.css.map */
