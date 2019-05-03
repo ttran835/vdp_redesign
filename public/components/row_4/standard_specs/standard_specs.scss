@@ -7,16 +7,17 @@
     border: none;
   }
   ul.tab-spec-info-list {
+    display: none;
     width: 100%;
     margin-bottom: 10px;
-    padding: 5px;
-    li {
-      height: 51px;
+    padding: 0;
+    @include screen-queries-min-width('sm') {
       display: block;
-      width: 22%;
-      list-style-type: none;
-      float: left;
-      margin: 0px 50px -1px -5px;
+    }
+    li {
+      height: 70px;
+      display: block;
+      margin: 0 0 -1px 0;
       padding: 5px;
       list-style-type: none;
       border: solid thin $vdp-border-color;
@@ -32,6 +33,10 @@
     }
   }
   #standard-specification-nav-tabs {
+    display: none;
+    @include screen-queries-min-width('sm') {
+      display: block;
+    }
     .active {
       border-radius: 0;
       a {
@@ -47,5 +52,12 @@
     color: $primary-font-color;
     margin: 0 1.25px 20px;
     padding: 10px 20px;
+  }
+
+  #spec-accordion {
+    display: block;
+    @include screen-queries-min-width('sm') {
+      display: none;
+    }
   }
 }
