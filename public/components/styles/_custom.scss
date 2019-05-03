@@ -26,6 +26,11 @@ $title-font-size: 4rem;
 
 $cta-title-font-size: 2.3rem;
 
+/* standard spacing between sections */
+@mixin standard-section-spacing {
+  padding: 20px 0;
+}
+
 @mixin page-title-border-box {
   display: -webkit-box;
   display: -ms-flexbox;

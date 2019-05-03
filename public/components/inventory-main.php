@@ -68,4 +68,8 @@
   <div id="rolls-royce-similar-vehicles" class="row hidden">
     <?php require_once ('./components/row_3/similar_vehicles/similar_vehicles.php') ?>
   </div>
+    <!-- Section to view options -->
+  <div id="standard-specifications" class="row">
+    <?php require_once ('./components/row_4/standard_specs/standard_specs.php'); ?>
+  </div>
 </div>

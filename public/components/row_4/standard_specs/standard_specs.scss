@@ -1,0 +1,18 @@
+@import '../../styles/custom';
+
+/* section for standard specs css */
+
+#standard-specifications {
+  .panel-collapse {
+    ul {
+      width: 100em;
+      li {
+        width: 30em;
+        float: left;
+      }
+      br {
+        clear: left;
+      }
+    }
+  }
+}

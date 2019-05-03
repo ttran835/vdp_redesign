@@ -3,7 +3,7 @@
 
 #vehicle-display {
   background-color: $inventory-primary-color;
-
+  @include standard-section-spacing;
   h3 {
     font-size: $vdp-title-font-size;
     font-weight: 600;
@@ -33,5 +33,15 @@
         color: $secondary-font-color;
       }
     }
+  }
+  #image-and-specs {
+    @include standard-section-spacing;
+  }
+  #key-info-and-vid {
+    @include standard-section-spacing;
+  }
+
+  #rolls-royce-similar-vehicles {
+    @include standard-section-spacing;
   }
 }
