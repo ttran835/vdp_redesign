@@ -4,4 +4,9 @@ $(document).ready(function() {
     var icon = $(this).find('.fa');
     VDP.toggleIcon(icon);
   });
+
+  $('#myTabs a').click(function(e) {
+    e.preventDefault();
+    $(this).tab('show');
+  });
 });

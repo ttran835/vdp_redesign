@@ -3,16 +3,49 @@
 /* section for standard specs css */
 
 #standard-specifications {
-  .panel-collapse {
-    ul {
-      width: 100em;
-      li {
-        width: 30em;
-        float: left;
-      }
-      br {
-        clear: left;
+  .nav-tabs {
+    border: none;
+  }
+  ul.tab-spec-info-list {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    li {
+      height: 51px;
+      display: block;
+      width: 22%;
+      list-style-type: none;
+      float: left;
+      margin: 0px 50px -1px -5px;
+      padding: 5px;
+      list-style-type: none;
+      border: solid thin $vdp-border-color;
+      &:nth-child(even) {
+        background-color: $vdp-border-color;
+        border: solid thin #000;
       }
     }
+    br {
+      clear: left;
+    }
+    .tab-content {
+    }
+  }
+  #standard-specification-nav-tabs {
+    .active {
+      border-radius: 0;
+      a {
+        background-color: #000;
+        color: $secondary-font-color;
+      }
+    }
+  }
+  a {
+    @include vlp-vdp-a-tag-btn;
+    border-radius: 0;
+    font-size: 1.2rem;
+    color: $primary-font-color;
+    margin: 0 1.25px 20px;
+    padding: 10px 20px;
   }
 }
