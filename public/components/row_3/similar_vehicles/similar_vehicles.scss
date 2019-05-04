@@ -46,7 +46,7 @@
       -webkit-transition: all 0.5s;
       -o-transition: all 0.5s;
       transition: all 0.5s;
-      @include screen-queries-min-width('lg') {
+      @include screen-queries-min-width('xtra-lg') {
         width: 89.5%;
       }
       a {
