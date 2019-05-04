@@ -12,6 +12,7 @@
     border-bottom: solid thin $vdp-border-color;
     text-transform: uppercase;
   }
+
   .vdp-cta {
     background: #fefefe;
     text-align: center;
@@ -43,6 +44,9 @@
   }
 
   #rolls-royce-similar-vehicles {
+    @include standard-section-spacing;
+  }
+  #standard-specifications {
     @include standard-section-spacing;
   }
 }

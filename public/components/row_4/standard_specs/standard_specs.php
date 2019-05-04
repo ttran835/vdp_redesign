@@ -213,120 +213,193 @@
         <div role="tabpanel" class="tab-pane fade" id="settings">...</div>
       </div>
     </div>
-    <div class="panel-group" id="spec-accordion">
+    <div class="panel-group" id="standard-specification-accordion">
       <div class="panel pdtm-vdp-specs">
-      <h4 class="panel-title"
+      <a class="panel-title"
           data-toggle="collapse"
-          data-parent="#spec-accordion"
+          data-parent="#standard-specification-accordion"
           data-target="#test">
-          Option Names 1
+          Mechanical
           <i class="fa fa-caret-right"></i>
-      </h4>
+      </a>
       <div class="panel-collapse collapse" id="test">
-        <table>
-          <tbody>
-            <?php 
-            $testArray = array(
-              'Spec', 'Spec' ,  'Spec' ,  'Spec' ,  'Spec' ,  'Spec' ,  'Spec' ,  'Spec', 'Spec', 'Spec' ,  'Spec' ,  'Spec' ,  'Spec' ,  'Spec' ,  'Spec' ,  'Spec' 
-            );
-
-            $cols = [];
-            $perCol = 12;
-          
-            foreach ($testArray as $index => $spec) {
-              echo '<tr>';
-              echo '<td>'.$optionLength.'</td>';
-              echo '</tr>';
-            }
-            ?>
-          </tbody>
-        </table>
-      </div>
-    </div>
-    <div class="panel pdtm-vdp-specs">
-      <h4 class="panel-title"
-          data-toggle="collapse"
-          data-parent="#spec-accordion"
-          data-target="#test2">
-          Option Names 2
-          <i class="fa fa-caret-right"></i>
-      </h4>
-      <div class="panel-collapse collapse" id="test2">
-        <ul class="accordian-spec-info-list">
-          <li>
-            Test Item and Specs
-          </li>
-          <li>
-            Test Item and Specs
-          </li>
-          <li>
-            Test Item and Specs
-          </li>
-          <li>
-            Test Item and Specs
-          </li>
-          <li>
-            Test Item and Specs
-          </li>
-          <li>
-            Test Item and Specs
-          </li>
-          <li>
-            Test Item and Specs
-          </li>
-          <li>
-            Test Item and Specs
-          </li>
-          <li>
-            Test Item and Specs
-          </li>
-          <li>
-            Test Item and Specs
-          </li>
-          <li>
-            Test Item and Specs
-          </li>
-          <li>
-            Test Item and Specs
-          </li>
-          <li>
-            Test Item and Specs
-          </li>
-          <li>
-            Test Item and Specs
-          </li>
-          <li>
-            Test Item and Specs
-          </li>
-          <li>
-            Test Item and Specs
-          </li>
-          <br />
+      <ul class="accordion-spec-info-list">
+        <li>
+              Engine: Twin Turbo 6.6L V12 DOHC -inc: variable valve control and direct fuel injection
+            </li>
+            <li>
+              Transmission: 8-Speed Automatic
+            </li>
+            <li>
+              Transmission w/Driver Selectable Mode
+            </li>
+            <li>
+            Rear-Wheel Drive
+            </li>
+            <li>
+            2.81 Axle Ratio
+            </li>
+            <li>
+            Engine Oil Cooler
+            </li>
+            <li>
+            90-Amp/Hr Maintenance-Free Battery w/Run Down Protection
+            </li>
+            <li>
+            210 Amp Alternator
+            </li>
+            <li>
+            4-Corner Auto-Leveling Suspension
+            </li>
+            <li>
+            Front And Rear Anti-Roll Bars
+            </li>
         </ul>
       </div>
     </div>
     <div class="panel pdtm-vdp-specs">
-      <h4 class="panel-title"
+      <a class="panel-title"
+          data-toggle="collapse"
+          data-parent="#spec-accordion"
+          data-target="#test2">
+          Mechanical
+          <i class="fa fa-caret-right"></i>
+          </a>
+      <div class="panel-collapse collapse" id="test2">
+        <ul class="accordion-spec-info-list">
+        <li>
+              Engine: Twin Turbo 6.6L V12 DOHC -inc: variable valve control and direct fuel injection
+            </li>
+            <li>
+              Transmission: 8-Speed Automatic
+            </li>
+            <li>
+              Transmission w/Driver Selectable Mode
+            </li>
+            <li>
+            Rear-Wheel Drive
+            </li>
+            <li>
+            2.81 Axle Ratio
+            </li>
+            <li>
+            Engine Oil Cooler
+            </li>
+            <li>
+            90-Amp/Hr Maintenance-Free Battery w/Run Down Protection
+            </li>
+            <li>
+            210 Amp Alternator
+            </li>
+            <li>
+            4-Corner Auto-Leveling Suspension
+            </li>
+            <li>
+            Front And Rear Anti-Roll Bars
+            </li>
+            <li>
+              Engine: Twin Turbo 6.6L V12 DOHC -inc: variable valve control and direct fuel injection
+            </li>
+            <li>
+              Transmission: 8-Speed Automatic
+            </li>
+            <li>
+              Transmission w/Driver Selectable Mode
+            </li>
+            <li>
+            Rear-Wheel Drive
+            </li>
+            <li>
+            2.81 Axle Ratio
+            </li>
+            <li>
+            Engine Oil Cooler
+            </li>
+            <li>
+            90-Amp/Hr Maintenance-Free Battery w/Run Down Protection
+            </li>
+            <li>
+            210 Amp Alternator
+            </li>
+            <li>
+            4-Corner Auto-Leveling Suspension
+            </li>
+            <li>
+            Front And Rear Anti-Roll Bars
+            </li>
+            <li>
+              Engine: Twin Turbo 6.6L V12 DOHC -inc: variable valve control and direct fuel injection
+            </li>
+            <li>
+              Transmission: 8-Speed Automatic
+            </li>
+            <li>
+              Transmission w/Driver Selectable Mode
+            </li>
+            <li>
+            Rear-Wheel Drive
+            </li>
+            <li>
+            2.81 Axle Ratio
+            </li>
+            <li>
+            Engine Oil Cooler
+            </li>
+            <li>
+            90-Amp/Hr Maintenance-Free Battery w/Run Down Protection
+            </li>
+            <li>
+            210 Amp Alternator
+            </li>
+            <li>
+            4-Corner Auto-Leveling Suspension
+            </li>
+            <li>
+            Front And Rear Anti-Roll Bars
+            </li>
+        </ul>
+      </div>
+    </div>
+    <div class="panel pdtm-vdp-specs">
+      <a class="panel-title"
           data-toggle="collapse"
           data-parent="#spec-accordion"
           data-target="#test3">
-          Option Names 3
+          Mechanical
           <i class="fa fa-caret-right"></i>
-      </h4>
+          </a>
       <div class="panel-collapse collapse" id="test3">
-        <ul>
-          <li>
-            Test Item and Specs
-          </li>
-          <li>
-            Test Item and Specs
-          </li>
-          <li>
-            Test Item and Specs
-          </li>
-          <li>
-            Test Item and Specs
-          </li>
+      <ul class="accordion-spec-info-list">
+        <li>
+              Engine: Twin Turbo 6.6L V12 DOHC -inc: variable valve control and direct fuel injection
+            </li>
+            <li>
+              Transmission: 8-Speed Automatic
+            </li>
+            <li>
+              Transmission w/Driver Selectable Mode
+            </li>
+            <li>
+            Rear-Wheel Drive
+            </li>
+            <li>
+            2.81 Axle Ratio
+            </li>
+            <li>
+            Engine Oil Cooler
+            </li>
+            <li>
+            90-Amp/Hr Maintenance-Free Battery w/Run Down Protection
+            </li>
+            <li>
+            210 Amp Alternator
+            </li>
+            <li>
+            4-Corner Auto-Leveling Suspension
+            </li>
+            <li>
+            Front And Rear Anti-Roll Bars
+            </li>
         </ul>
       </div>
     </div>
