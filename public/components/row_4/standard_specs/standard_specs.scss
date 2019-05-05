@@ -15,15 +15,15 @@
       display: block;
     }
     li {
-      height: 70px;
       display: block;
-      margin: 0 0 -1px 0;
-      padding: 5px;
-      list-style-type: none;
-      border: solid thin $vdp-border-color;
       color: $primary-font-color;
       line-height: $list-txt-line-height;
       font-size: $list-txt-font-size;
+      height: 70px;
+      margin: 0 0 -1px 0;
+      padding: 5px;
+      border: solid thin $vdp-border-color;
+      list-style-type: none;
       &:nth-child(even) {
         background-color: $vdp-border-color;
         border: solid thin #000;

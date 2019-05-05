@@ -2,9 +2,9 @@ $(document).ready(function() {
   console.log('initialized key_info?');
 
   // getting all elements
-  var ctaBtn = $('.vdp-cta > a');
-  var readMore = $('#read-more-btn');
-  var readLess = $('#read-less-btn');
+  var ctaBtn = $('#key-info-and-vid .vdp-cta > a');
+  var showMore = $('#key-info-and-vid #show-more-btn');
+  var showLess = $('#key-info-and-vid #show-less-btn');
   var vehicleDetails = $('.vehicle-details');
 
   // to set timer
@@ -26,8 +26,8 @@ $(document).ready(function() {
 
   // function to change text in a tag btn
   ctaBtn.on('click', function() {
-    if (readMore.css('display').toLowerCase() === 'block') {
-      readMore.animate(
+    if (showMore.css('display').toLowerCase() === 'block') {
+      showMore.animate(
         {
           display: 'none',
         },
@@ -36,7 +36,7 @@ $(document).ready(function() {
           $(this).css('display', 'none');
         }
       );
-      readLess.animate(
+      showLess.animate(
         {
           display: 'block',
         },
@@ -46,7 +46,7 @@ $(document).ready(function() {
         }
       );
     } else {
-      readLess.animate(
+      showLess.animate(
         {
           display: 'none',
         },
@@ -55,7 +55,7 @@ $(document).ready(function() {
           $(this).css('display', 'none');
         }
       );
-      readMore.animate(
+      showMore.animate(
         {
           display: 'block',
         },
