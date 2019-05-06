@@ -23,7 +23,7 @@
         Hello
       </h1>
       <div class='row'>
-        <?php include './components/inventory-main.php'?>
+        <?php include './components/rolls-royce-inventory-main.php'?>
       </div>
     </div>
     <script

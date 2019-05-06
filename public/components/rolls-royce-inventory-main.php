@@ -1,5 +1,4 @@
 <?php
-/*
   $vehicle = $store->vehicle;
   $disclaimers = $store->disclaimers;
 
@@ -32,30 +31,37 @@
       $showOptionCodeStatus = true;
     }
   }
-
-  $moto = in_array(PM_MOTORS_SITE_TOKEN, ['bmwmcriverside']);
-  */
 ?>
 
-<!-- <h1 id="vehicle-name" class="vehicle-name<?php /* echo 
-  PM_MOTORS_SITE_TOKEN !== 'nchonda' ? ' text-uppercase' : ''; ?>"><?php echo $vehicle->label . $editButton; */?></h1> -->
 
-<div class="col-xs-12" id="name-and-price">
-  <h1>Where Vehicle Title will be</h1>
-  <h1>
-    <?php 
-      if ('$vehicle->status' === 'in_transit') {
-        echo 'In Transit';
-      } else if ('$vehicle->status' === 'call_for_price') {
-        echo 'Call for Price';
-      } else {
-        echo 'Temporary Car Title';
-      }
-    ?>
-  </h1>
+<div class="container" id="name-and-price">
+  <div class="row">
+    <div class="col-xs-12">
+      <h1 id="vehicle-name" class="vehicle-name">Hello Example<?php echo 
+        PM_MOTORS_SITE_TOKEN !== 'nchonda' ? ' text-uppercase' : ''; ?>"><?php echo $vehicle->label . $editButton; ?></h1>
+      <h1>
+        <?php 
+          if ('$vehicle->status' === 'in_transit') {
+            echo 'In Transit';
+          } else if ('$vehicle->status' === 'call_for_price') {
+            echo 'Call for Price';
+          } else {
+            echo 'Temporary Car Title';
+          }
+        ?>
+      </h1>
+    </div>
+    <div class="col-xs-12">
+      <a id="vdp-back" class="pdtm-vdp-go-back">&larr; <!-- &larr to ingegrate arrow -->
+        <?php 
+          echo $tokens['go_back'];
+        ?>
+      </a>
+    </div>
+  </div>
 </div>
 
-<div id="vehicle-display">
+<div id="vehicle-display" class="container">
   <div id="image-and-specs" class="row">
     <!-- Section to render carousel Images -->
     <?php require_once ('./components/row_1/img_and_specs.php'); ?>
