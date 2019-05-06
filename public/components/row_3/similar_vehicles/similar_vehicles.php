@@ -2,9 +2,8 @@
   <div class="col-xs-12">
     <h3>
       <?php
-        $tokens = 'Similar Vehicles';
-        if($tokens) {
-          echo $tokens;
+        if($tokens['similar_vehicles']) {
+          echo $tokens['similar_vehicles'];
         } else {
           echo 'Similar Vehicles';
         }

@@ -2,9 +2,9 @@ $(document).ready(function() {
   // updateSimilarVehicle is pulled directly from vdp.js
   // I append a new class called 'reference-overlay' to be parent
   // of everything that was written previously
-  // similar how to Jon R have it set up, or John with the H
+  // similar how to Jon R have it set up, or John with an H
   // there is a token to check for whether or not it is rolls
-  // please uncomment out line 21 and 45 when live
+  // please uncomment out line 22 and 40 when live
 
   // This is test vehicle object, please ignore this
   var testVehicles = [];

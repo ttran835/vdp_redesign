@@ -8,7 +8,13 @@
       can show me how to do this as well
     -->
     <h3>Video Walkaround</h3>
-    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/8Zf7VIUtX08?controls=1" frameborder="0" allowfullscreen>
-    </iframe>
+    <?php 
+      if ($vehicle->media->video) {
+        // Render iframe information
+        echo '<iframe width="100%" height="100%" src="'.$vehicle->media->video.'" frameborder="0" allowfullscreen></iframe>';
+      } else {
+        echo '<p>Walkaround Video Unavailable</p>';
+      }
+    ?>
   </div>
 </div>
