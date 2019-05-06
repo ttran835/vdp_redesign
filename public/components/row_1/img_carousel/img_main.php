@@ -10,15 +10,15 @@
        $flip = $image->flip;
        if ($rotate === 90 || $rotate === 270) {
          if ($flip === 0) { 
-          echo "<div><img class='img img-responsive' src='{$image->src}' alt='{$vehicle->label}' style='transform: rotate({$rotate}deg) scale(0.6)'></div>";
+           echo "<div><img class='img-responsive' src='{$image->src}' alt='{$vehicle->label}' style='transform: rotate({$rotate}deg) scale(0.6)'></div>";
          } else {
-           echo "<class='img img-responsive' img src='{$image->src}' alt='{$vehicle->label}' style='transform: rotate({$rotate}deg) scale(0.6) scaleY(-1)'>";
+           echo "<div><img class='img-responsive' img src='{$image->src}' alt='{$vehicle->label}' style='transform: rotate({$rotate}deg) scale(0.6) scaleY(-1)'></div>";
          }
        } else {
          if ($flip === 0) {
-           echo "<class='img img-responsive' img src='{$image->src}' alt='{$vehicle->label}' style='transform: rotate({$rotate}deg) scale(1)'>";
+           echo "<div><img class='img-responsive' img src='{$image->src}' alt='{$vehicle->label}' style='transform: rotate({$rotate}deg) scale(1)'></div>";
          } else {
-             echo "<class='img img-respsonsive' img src='{$image->src}' alt='{$vehicle->label}' style='transform: rotate({$rotate}deg) scale(1) scaleX(-1)'>";
+           echo"<div><img class='img-respsonsive' img src='{$image->src}' alt='{$vehicle->label}' style='transform: rotate({$rotate}deg) scale(1) scaleX(-1)'></div>";
          }
        }
      }
@@ -32,15 +32,15 @@
           $flip = $image->flip;
           if ($rotate == 90 || $rotate == 270) {
             if ($flip == 0) { 
-              echo "<div><class='img img-responsive pdtm-vdp-img-detail' img data-lazy='{$image->src}'  alt='{$vehicle->label}' style='transform: rotate({$rotate}deg) scale(0.6)'></div>";
+              echo "<div><img class='img-responsive pdtm-vdp-img-detail' img data-lazy='{$image->src}'  alt='{$vehicle->label}' style='transform: rotate({$rotate}deg) scale(0.6)'></div>";
             } else {
-              echo "<div><class='img img-responsive pdtm-vdp-img-detail' img data-lazy='{$image->src}'  alt='{$vehicle->label}' style='transform: rotate({$rotate}deg) scale(0.6) scaleY(-1)'></div>";
+              echo "<div><img class=' img-responsive pdtm-vdp-img-detail' img data-lazy='{$image->src}'  alt='{$vehicle->label}' style='transform: rotate({$rotate}deg) scale(0.6) scaleY(-1)'></div>";
             }
           } else {
             if ($flip == 0) {
-              echo "<div><class='img img-responsive pdtm-vdp-img-detail' img data-lazy='{$image->src}'  alt='{$vehicle->label}' style='transform: rotate({$rotate}deg) scale(1)'></div>";
+              echo "<div><img class='img-responsive pdtm-vdp-img-detail' img data-lazy='{$image->src}'  alt='{$vehicle->label}' style='transform: rotate({$rotate}deg) scale(1)'></div>";
             } else {
-              echo "<div><class='img img-responsive pdtm-vdp-img-detail' img data-lazy='{$image->src}'  alt='{$vehicle->label}' style='transform: rotate({$rotate}deg) scale(1) scaleX(-1)'></div>";
+              echo "<div><img class='img-responsive pdtm-vdp-img-detail' img data-lazy='{$image->src}'  alt='{$vehicle->label}' style='transform: rotate({$rotate}deg) scale(1) scaleX(-1)'></div>";
             }
           }
         }
