@@ -24,6 +24,7 @@
       <!-- Tab panes -->
       <div class="tab-content">
         <div rol="tabpanel" class="tab-pane fade in active" id="hide">
+          Click one of the tabs to see more features. 
         </div>
         <div role="tabpanel" class="tab-pane fade" id="home">
           <ul class="tab-spec-info-list">

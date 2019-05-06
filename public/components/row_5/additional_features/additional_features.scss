@@ -4,8 +4,10 @@
 
 #additional-features {
   #installed-options {
+    height: 192px;
+    overflow: hidden;
     & > ul {
-      padding: 0;
+      padding: 5px;
       -webkit-column-count: 1;
       column-count: 1;
       @include screen-queries-min-width('sm') {
@@ -34,13 +36,12 @@
   .vdp-cta {
     display: flex;
     flex-direction: column;
-
     a {
       width: 50%;
       padding: 10px 20px;
       margin: 5px!important auto;
       @include screen-queries-min-width('lg') {
-        width: 20%;
+        width: 10%;
       }
     }
     #show-more-btn {
@@ -49,7 +50,7 @@
     }
     #show-less-btn {
       transition: ease-in-out 0.5s;
-      display: block;
+      display: none;
     }
   }
 }

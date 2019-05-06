@@ -132,8 +132,8 @@
       </ul>
     </div>
     <div class='vdp-cta'>
-      <a id='show-more-btn'>Read More</a>
-      <a id='show-less-btn'>Read Less</a>
+      <a id='show-more-btn'>Show More</a>
+      <a id='show-less-btn'>Show Less</a>
     </div>
   </div>
 </div>

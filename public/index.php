@@ -40,7 +40,7 @@
     <script type="text/javascript" src="components/row_2/key_info/key_info.js"></script>
     <script type="text/javascript" src="components/row_3/similar_vehicles/similar_vehicles.js"></script>
     <script type="text/javascript" src="components/row_4/standard_specs/standard_specs.js"></script>
-    <script type="text/javascript" src="components/row_5/additiona_features/additiona_features.js"></script>
+    <script type="text/javascript" src="components/row_5/additional_features/additional_features.js"></script>
     <!-- <script type="text/javascript" src="http://vdp-redesign.com/VDP.js"></script> -->
   </body>
 </html>

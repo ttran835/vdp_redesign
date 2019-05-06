@@ -2,7 +2,7 @@ $(document).ready(function() {
   console.log('initialized key_info?');
 
   // getting all elements
-  var ctaBtn = $('#key-info-and-vid .vdp-cta > a');
+  var keyInfoCtaBtn = $('#key-info-and-vid .vdp-cta > a');
   var showMore = $('#key-info-and-vid #show-more-btn');
   var showLess = $('#key-info-and-vid #show-less-btn');
   var vehicleDetails = $('.vehicle-details');
@@ -11,7 +11,7 @@ $(document).ready(function() {
   var animateTime = 300;
 
   // function to show and hide dealer comments
-  ctaBtn.on('click', function() {
+  keyInfoCtaBtn.on('click', function() {
     if (vehicleDetails.height() === 155) {
       animatedHeight(vehicleDetails, animateTime);
     } else {
@@ -25,7 +25,7 @@ $(document).ready(function() {
   });
 
   // function to change text in a tag btn
-  ctaBtn.on('click', function() {
+  keyInfoCtaBtn.on('click', function() {
     if (showMore.css('display').toLowerCase() === 'block') {
       showMore.animate(
         {
