@@ -72,4 +72,12 @@
   <div id="standard-specifications" class="row">
     <?php require_once ('./components/row_4/standard_specs/standard_specs.php'); ?>
   </div>
+    <!-- Section to view additional Features -->
+  <div id="additional-features" class="row">
+    <?php require_once ('./components/row_5/additional_features/additional_features.php'); ?> 
+  </div>
+    <!-- Section to add in disclaimer information -->
+  <div id="disclaimer" class="row">
+    <?php  require_once ('./components/row_6/disclaimer/disclaimer.php'); ?> 
+  </div>
 </div>
