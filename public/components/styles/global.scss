@@ -49,4 +49,10 @@
   #standard-specifications {
     @include standard-section-spacing;
   }
+  #additional-features {
+    @include standard-section-spacing;
+  }
+  #disclaimer {
+    @include standard-section-spacing;
+  }
 }

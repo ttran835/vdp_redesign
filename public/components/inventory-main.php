@@ -77,7 +77,7 @@
     <?php require_once ('./components/row_5/additional_features/additional_features.php'); ?> 
   </div>
     <!-- Section to add in disclaimer information -->
-  <!-- <div id="additional-features" class="row">
-    <?php /* require_once ('./components/row_6/disclaimer/disclaimer.php'); */?> 
-  </div> -->
+  <div id="disclaimer" class="row">
+    <?php  require_once ('./components/row_6/disclaimer/disclaimer.php'); ?> 
+  </div>
 </div>

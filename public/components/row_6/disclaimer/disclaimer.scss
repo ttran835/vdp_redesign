@@ -1,0 +1,10 @@
+@import '../../styles/custom';
+
+/* css for disclaimer */
+
+#disclaimer {
+  p {
+    font-size: $list-txt-font-size;
+    line-height: $list-txt-line-height;
+  }
+}
