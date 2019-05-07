@@ -29,22 +29,24 @@
           or call us at "dealer-phone-number"
         </p>
       </div>
-      <div id ="cta-buttons-right" class="row">
-        <div class="col-xs-12 pdtm-vdp-cta-right">
+      <div class="col-xs-12" id="cta-button-column">
+        <div id="cta-buttons-right" class="pdtm-vdp-cta-right">
           <?php
-            foreach ($vehicle -> $cta_right as $button) {
-              echo '<'.$button -> element. ' ';
-              foreach ($button -> attributes as $key => $value) {
-                echo $key. '="' .$value. '" '; 
+            foreach ($vehicle->cta_right as $button) {
+              echo '<' . $button->element . ' ';
+              foreach ($button->attributes as $key => $value) {
+                echo $key . '="' . $value . '" ';
               }
               echo '>';
-              if (!empty($button -> icon)) {
-                '<i class="fa' .$button -> icon. '"></i>';
+              if (!empty($button->icon)) {
+            ?>
+              <i class="fa <?php echo $button->icon; ?>"></i>
+            <?php
               }
-              echo $button -> label;
-              echo '</' .$button -> element. '>';
-            }
-          ?>
+              echo $button->label;
+              echo '</' . $button->element . '>';
+              }
+            ?>
         </div>
       </div>
     </div>

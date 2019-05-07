@@ -16,9 +16,9 @@
          }
        } else {
          if ($flip === 0) {
-           echo "<div><img class='img-responsive' img src='{$image->src}' alt='{$vehicle->label}' style='transform: rotate({$rotate}deg) scale(1.6)'></div>";
+           echo "<div><img class='img-responsive' img src='{$image->src}' alt='{$vehicle->label}' style='transform: rotate({$rotate}deg) scale(1.0)'></div>";
          } else {
-           echo"<div><img class='img-respsonsive' img src='{$image->src}' alt='{$vehicle->label}' style='transform: rotate({$rotate}deg) scale(1.6) scaleX(-1)'></div>";
+           echo"<div><img class='img-respsonsive' img src='{$image->src}' alt='{$vehicle->label}' style='transform: rotate({$rotate}deg) scale(1.0) scaleX(-1)'></div>";
          }
        }
      }
