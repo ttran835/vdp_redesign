@@ -219,11 +219,11 @@
       <a class="panel-title"
           data-toggle="collapse"
           data-parent="#standard-specification-accordion"
-          data-target="#test">
+          data-target="#mechanical">
           Mechanical
           <i class="fa fa-caret-right"></i>
       </a>
-      <div class="panel-collapse collapse" id="test">
+      <div class="panel-collapse collapse" id="mechanical">
       <ul class="accordion-spec-info-list">
         <li>
               Engine: Twin Turbo 6.6L V12 DOHC -inc: variable valve control and direct fuel injection

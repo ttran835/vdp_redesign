@@ -74,8 +74,8 @@
       </p>
     </div>
     <div class='vdp-cta'>
-      <a id='show-more-btn'>Read More</a>
-      <a id='show-less-btn'>Read Less</a>
+      <a class='show-more-btn'>Read More</a>
+      <a class='show-less-btn'>Read Less</a>
     </div>
   </div>
 </div>
