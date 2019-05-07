@@ -36,21 +36,33 @@
 
 <div class="container" id="name-and-price">
   <div class="row">
-    <div class="col-xs-12">
-      <h1 id="vehicle-name" class="vehicle-name">Hello Example<?php echo 
-        PM_MOTORS_SITE_TOKEN !== 'nchonda' ? ' text-uppercase' : ''; ?>"><?php echo $vehicle->label . $editButton; ?></h1>
-      <h1>
+    <div class="col-xs-6">
+      <h1 id="vehicle-name" class="vehicle-name">
+        <?php echo $vehicle->label . $editButton; ?>
+      </h1>
+
+      <h6>
         <?php 
-          if ('$vehicle->status' === 'in_transit') {
+          if ($vehicle->status === 'in_transit') {
             echo 'In Transit';
-          } else if ('$vehicle->status' === 'call_for_price') {
+          } else if ($vehicle->status === 'call_for_price') {
             echo 'Call for Price';
           } else {
-            echo 'Temporary Car Title';
+            echo '';
           }
         ?>
-      </h1>
+      </h6>
     </div>
+    <div class="col-xs-6">
+      <div id="pricing-block">
+        <?php 
+          $pricing = $vehicle->pricing->display;
+        
+        ?>
+      </div>
+    </div>
+  </div>
+  <div class="row">
     <div class="col-xs-12">
       <a id="vdp-back" class="pdtm-vdp-go-back">&larr; <!-- &larr to ingegrate arrow -->
         <?php 
@@ -64,26 +76,26 @@
 <div id="vehicle-display" class="container">
   <div id="image-and-specs" class="row">
     <!-- Section to render carousel Images -->
-    <?php require_once ('./components/row_1/img_and_specs.php'); ?>
+    <?php require_once ('rolls_royce_vdp/components/row_1_img_and_specs/img_and_specs.php'); ?>
   </div>
   <div id="key-info-and-vid" class="row">
     <!-- Section to render key info and vid -->
-    <?php require_once ('./components/row_2/key_info_and_vid.php'); ?>
+    <?php require_once ('rolls_royce_vdp/components/row_2_key_info_and_vid/key_info_and_vid.php'); ?>
   </div>
     <!-- Section for similar vehicles -->
   <div id="rolls-royce-similar-vehicles" class="row hidden">
-    <?php require_once ('./components/row_3/similar_vehicles/similar_vehicles.php') ?>
+    <?php require_once ('rolls_royce_vdp/components/row_3_similar_vehicle/similar_vehicles/similar_vehicles.php') ?>
   </div>
     <!-- Section to view options -->
   <div id="standard-specifications" class="row">
-    <?php require_once ('./components/row_4/standard_specs/standard_specs.php'); ?>
+    <?php require_once ('rolls_royce_vdp/components/row_4_standard_specs/standard_specs/standard_specs.php'); ?>
   </div>
     <!-- Section to view additional Features -->
   <div id="additional-features" class="row">
-    <?php require_once ('./components/row_5/additional_features/additional_features.php'); ?> 
+    <?php require_once ('rolls_royce_vdp/components/row_5_additional_features/additional_features/additional_features.php'); ?> 
   </div>
     <!-- Section to add in disclaimer information -->
   <div id="disclaimer" class="row">
-    <?php  require_once ('./components/row_6/disclaimer/disclaimer.php'); ?> 
+    <?php  require_once ('rolls_royce_vdp/components/row_6_disclaimer/disclaimer/disclaimer.php'); ?> 
   </div>
 </div>

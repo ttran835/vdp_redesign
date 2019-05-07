@@ -1,0 +1,42 @@
+@import '../../styles/custom';
+
+body,
+p,
+div,
+ul,
+li,
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#product-gallery-slideshow {
+  .product-gallery-image {
+    width: 100%;
+  }
+
+  .slick-prev {
+    left: 0px;
+    z-index: 999;
+    background-color: #fff;
+    padding-top: 15px;
+    padding-bottom: 35px;
+    cursor: pointer;
+    &:before {
+      color: #aaa;
+    }
+  }
+  .slick-next {
+    right: 0px;
+    z-index: 999;
+    background-color: #fff;
+    padding-top: 15px;
+    padding-bottom: 35px;
+    cursor: pointer;
+    &:before {
+      color: #aaa;
+    }
+  }
+}

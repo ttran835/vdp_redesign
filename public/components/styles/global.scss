@@ -55,14 +55,4 @@
   #disclaimer {
     @include standard-section-spacing;
   }
-  /* To set container to larger width after 1800px */
-
-  .container {
-    @media (min-width: 1600px) {
-      width: 1460px !important;
-    }
-    @include screen-queries-min-width('xtra-lg') {
-      width: 1692px !important;
-    }
-  }
 }
