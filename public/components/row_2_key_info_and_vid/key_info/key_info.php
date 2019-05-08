@@ -21,6 +21,8 @@
 
         if ($comments) {
           echo '<p>'.$comments.'</p>';
+        } else {
+          echo '<p>Please in touch with our Dealer to receive more information about this specific vehicle.</p>';
         }
       ?>
     </div>

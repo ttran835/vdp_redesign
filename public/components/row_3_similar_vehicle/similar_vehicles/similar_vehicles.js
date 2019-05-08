@@ -19,7 +19,7 @@ $(document).ready(function() {
   // still be applicable. rolls-royce will be applied to rolls
   // please remove the argument once line 20 is uncommented
   var updateSimilarVehicles = function(vehicles) {
-    // var vehicles = this.store.vehicle.similarVehicles;
+    var vehicles = this.store.vehicle.similarVehicles;
     if (vehicles.length > 0) {
       var list = vehicles.map(function(item) {
         var $img = $('<img>')

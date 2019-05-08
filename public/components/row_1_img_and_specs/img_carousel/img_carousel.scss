@@ -1,16 +1,20 @@
 @import '../../styles/custom';
 
+body,
+p,
+div,
+ul,
+li,
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Open Sans', sans-serif;
+}
+
 #product-gallery-slideshow {
   .product-gallery-image {
     width: 100%;
-  }
-  #product-gallery-detail {
-    .img-responsive {
-      height: 600px;
-    }
-  }
-  .pdtm-vdp-img-detail {
-    padding: 0 2.5px 0;
   }
 
   .slick-prev {

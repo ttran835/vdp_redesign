@@ -1,6 +1,34 @@
 @import './custom';
 /* scss file to used for vdp global*/
 
+body,
+p,
+div,
+ul,
+li,
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#name-and-price {
+  margin-top: 20px;
+  padding-top: 20px;
+  h1 {
+    font-size: $title-font-size;
+    color: $primary-font-color;
+  }
+  #pricing-block {
+    & > h1 {
+      font-size: $title-font-size;
+      color: $primary-font-color;
+      text-align: end;
+      padding-right: 30px;
+    }
+  }
+}
 #vehicle-display {
   background-color: $inventory-primary-color;
   @include standard-section-spacing;
@@ -47,6 +75,12 @@
     @include standard-section-spacing;
   }
   #standard-specifications {
+    @include standard-section-spacing;
+  }
+  #additional-features {
+    @include standard-section-spacing;
+  }
+  #disclaimer {
     @include standard-section-spacing;
   }
 }
