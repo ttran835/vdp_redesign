@@ -36,7 +36,7 @@
 
 <div class="container" id="name-and-price">
   <div class="row">
-    <div class="col-xs-12">
+    <div class="col-xs-12 col-sm-6">
       <h1 id="vehicle-name" class="vehicle-name">Hello Example<?php echo 
         PM_MOTORS_SITE_TOKEN !== 'nchonda' ? ' text-uppercase' : ''; ?>"><?php echo $vehicle->label . $editButton; ?></h1>
       <h1>
@@ -51,7 +51,7 @@
         ?>
       </h1>
     </div>
-    <div class="col-xs-12">
+    <div class="col-xs-12 col-sm-6">
       <a id="vdp-back" class="pdtm-vdp-go-back">&larr; <!-- &larr to ingegrate arrow -->
         <?php 
           echo $tokens['go_back'];
