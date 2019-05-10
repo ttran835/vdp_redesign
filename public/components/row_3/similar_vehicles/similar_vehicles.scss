@@ -46,8 +46,8 @@
       -webkit-transition: all 0.5s;
       -o-transition: all 0.5s;
       transition: all 0.5s;
-      @include screen-queries-min-width('xtra-lg') {
-        width: 89.5%;
+      @include screen-queries-min-width('lg') {
+        width: 97.5%;
       }
       a {
         @include text-box-shadow;
@@ -63,7 +63,7 @@
         text-transform: uppercase;
         font-weight: bold;
         color: $secondary-font-color;
-        padding: 5px 15px;
+        padding: 5px 5px;
         text-decoration: none;
         @include screen-queries-min-width('lg') {
           padding: 10px 15px;
