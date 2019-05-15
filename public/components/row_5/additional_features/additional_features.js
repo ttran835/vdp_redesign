@@ -39,7 +39,6 @@ $(document).ready(function() {
         );
       }
     });
-
     $anchorBtnForSection.on('click', function() {
       if ($showMore.css('display').toLowerCase() === 'block') {
         $showMore.animate(
@@ -105,7 +104,7 @@ $(document).ready(function() {
 
     if ($isList) {
       var $sumChildrenHeight = 0;
-      $(`${$div} ul li:lt(3)`).each(function() {
+      $(''.concat($div, ' ul li:lt(11)')).each(function() {
         $sumChildrenHeight += $(this).height();
       });
       $hiddenDivHeight = $sumChildrenHeight;
