@@ -12,28 +12,30 @@ $(document).ready(function() {
     $showMoreBtn,
     $showLessBtn,
     $sectionToShow,
-    $animateTime,
-    $isList
+    $animateTime
   ) {
     var $anchorBtnForSection = $(''.concat($divId, ' .vdp-cta > a'));
     var $showMore = $(''.concat($divId, ' ').concat($showMoreBtn));
     var $showLess = $(''.concat($divId, ' ').concat($showLessBtn));
     var $sectionToShowAndHide = $(''.concat($sectionToShow));
 
-    if ($isList) {
-      var $setHeight = setDynamicDivHeight($divId, 0, $isList);
-      $sectionToShowAndHide.css('height', $setHeight);
+    var $hiddenDivHeight;
+
+    if ($sectionToShowAndHide.height() > 195) {
+      $hiddenDivHeight = 195;
+      $sectionToShowAndHide.css('height', $hiddenDivHeight);
     } else {
-      var $setHeight = setDynamicDivHeight($sectionToShowAndHide, 195);
+      $hiddenDivHeight = $sectionToShowAndHide.height();
+      $sectionToShowAndHide.css('height', $hiddenDivHeight);
     }
 
     $anchorBtnForSection.on('click', function() {
-      if ($sectionToShowAndHide.height() === $setHeight) {
+      if ($sectionToShowAndHide.height() === $hiddenDivHeight) {
         animatedHeight($sectionToShowAndHide, $animateTime);
       } else {
         $sectionToShowAndHide.animate(
           {
-            height: $setHeight,
+            height: $hiddenDivHeight,
           },
           $animateTime
         );
@@ -82,64 +84,31 @@ $(document).ready(function() {
       }
     });
 
-    if ($setHeight > $sectionToShowAndHide.height()) {
+    if ($hiddenDivHeight < 195) {
       $showMore.css('display', 'none');
-      $showLess.css('display', 'none');
     } else {
-      $showMore.css('display', 'block');
-      $showLess.css('display', 'none');
-    }
-  };
-
-  var setDynamicDivHeight = function setDynamicDivHeight(
-    $div,
-    $desiredHeightToShow,
-    $hasList
-  ) {
-    var $hiddenDivHeight;
-    var $isList = false;
-
-    if ($hasList) {
-      $isList = $hasList;
+      $showLess.css('display', 'block');
     }
 
-    if ($isList) {
-      var $sumChildrenHeight = 0;
-      $(`${$div} ul li:lt(3)`).each(function() {
-        $sumChildrenHeight += $(this).height();
-      });
-      $hiddenDivHeight = $sumChildrenHeight;
-    } else {
-      if ($div.height() > $desiredHeightToShow) {
-        $hiddenDivHeight = $desiredHeightToShow;
-        $div.css('height', $hiddenDivHeight);
-      } else {
-        $hiddenDivHeight = $div.height();
-        $div.css('height', $hiddenDivHeight);
-      }
-    }
+    var animatedHeight = function animatedHeight($el, $timer) {
+      var currentHeight = $el.height();
+      var showContent = $el.css('height', 'auto').height();
+      $el.height(currentHeight);
 
-    return $hiddenDivHeight;
-  };
-
-  var animatedHeight = function animatedHeight($el, $timer) {
-    var $currentHeight = $el.height();
-    var $showContent = $el.css('height', 'auto').height();
-    $el.height($currentHeight);
-    $el.animate(
-      {
-        height: $showContent,
-      },
-      $timer
-    );
+      $el.animate(
+        {
+          height: showContent,
+        },
+        $timer
+      );
+    };
   };
 
   dynamicBtn(
-    '#additional-features',
+    '#key-info-and-vid',
     '.show-more-btn',
     '.show-less-btn',
-    '#installed-options',
-    500,
-    true
+    '.vehicle-details',
+    500
   );
 });

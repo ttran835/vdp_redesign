@@ -4,7 +4,6 @@
 
 #additional-features {
   #installed-options {
-    height: 192px;
     overflow: hidden;
     & > ul {
       padding: 5px;
@@ -46,11 +45,9 @@
     }
     #show-more-btn {
       transition: ease-in-out 0.5s;
-      display: block;
     }
     #show-less-btn {
       transition: ease-in-out 0.5s;
-      display: none;
     }
   }
 }

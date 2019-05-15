@@ -129,11 +129,54 @@
         <li>
         Hydraulic Power-Assist Speed-Sensing Steering
         </li>
+        <li>
+          Automatic w/Driver Control Height Adjustable Automatic Ride Control Comfort Ride Adaptive 
+        </li>
+        <li>
+        Suspension
+        </li>
+        <li>
+        Hydraulic Power-Assist Speed-Sensing Steering
+        </li>
+        <li>
+          Automatic w/Driver Control Height Adjustable Automatic Ride Control Comfort Ride Adaptive 
+        </li>
+        <li>
+        Suspension
+        </li>
+        <li>
+        Hydraulic Power-Assist Speed-Sensing Steering
+        </li>
+        <li>
+          Automatic w/Driver Control Height Adjustable Automatic Ride Control Comfort Ride Adaptive 
+        </li>
+        <li>
+        Suspension
+        </li>
+        <li>
+        Hydraulic Power-Assist Speed-Sensing Steering
+        </li>  <li>
+          Automatic w/Driver Control Height Adjustable Automatic Ride Control Comfort Ride Adaptive 
+        </li>
+        <li>
+        Suspension
+        </li>
+        <li>
+        Hydraulic Power-Assist Speed-Sensing Steering
+        </li>  <li>
+          Automatic w/Driver Control Height Adjustable Automatic Ride Control Comfort Ride Adaptive 
+        </li>
+        <li>
+        Suspension
+        </li>
+        <li>
+        Hydraulic Power-Assist Speed-Sensing Steering
+        </li>
       </ul>
     </div>
     <div class='vdp-cta'>
-      <a id='show-more-btn'>Show More</a>
-      <a id='show-less-btn'>Show Less</a>
+      <a class='show-more-btn'>Show More</a>
+      <a class='show-less-btn'>Show Less</a>
     </div>
   </div>
 </div>
