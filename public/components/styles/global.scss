@@ -24,8 +24,11 @@ h4 {
     & > h1 {
       font-size: $title-font-size;
       color: $primary-font-color;
-      text-align: end;
-      padding-right: 30px;
+      padding-left: 15px;
+      @include screen-queries-min-width('sm') {
+        padding-right: 30px;
+        text-align: end;
+      }
     }
   }
 }

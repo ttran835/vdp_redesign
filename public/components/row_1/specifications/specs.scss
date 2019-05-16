@@ -48,10 +48,17 @@
       }
     }
   }
-  .pdtm-vdp-cta-right {
-    margin-top: 20px;
-    a {
-      border-radius: 0;
+  #cta-button-column {
+    .pdtm-vdp-cta-right {
+      margin-top: 20px;
+      .phone-number {
+        font-weight: 600;
+        font-size: 1.3em;
+        margin-bottom: 15px;
+      }
+      a {
+        border-radius: 0;
+      }
     }
   }
   p {
