@@ -35,4 +35,42 @@
       color: #aaa;
     }
   }
+  .zoom-init {
+    cursor: pointer;
+  }
+  .zoom-icon-container {
+    position: absolute;
+    z-index: 9;
+    left: 92%;
+    background-color: #fff;
+  }
+}
+
+.zoom-container {
+  width: 100%;
+  height: 100%;
+  position: fixed !important;
+  top: 0;
+  z-index: 9999;
+  background-color: rgba(0, 0, 0, 0.9);
+  display: none;
+  .position-wrapper {
+    display: block;
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    .zoom-carousel {
+      position: relative;
+      // display: flex;
+      // justify-content: center;
+      // align-items: center;
+      margin: auto;
+      width: 70%;
+      height: 100%;
+    }
+  }
 }
