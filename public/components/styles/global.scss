@@ -54,7 +54,7 @@ h4 {
       @include vlp-vdp-a-tag-btn;
       color: $primary-font-color;
       @include screen-queries-min-width('lg') {
-        width: 55%;
+        width: 70%;
       }
       .fa {
         color: $primary-font-color;
