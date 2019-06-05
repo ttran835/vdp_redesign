@@ -51,6 +51,10 @@
   #cta-button-column {
     .pdtm-vdp-cta-right {
       margin-top: 20px;
+      & div:not(:first-child) {
+        padding: 20px 0;
+        border-bottom: solid thin $vdp-border-color;
+      }
       .phone-number {
         font-weight: 600;
         font-size: 1.3em;

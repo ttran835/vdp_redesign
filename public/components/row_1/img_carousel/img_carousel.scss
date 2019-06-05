@@ -41,8 +41,21 @@
   .zoom-icon-container {
     position: absolute;
     z-index: 9;
-    left: 92%;
+    left: 85%;
     background-color: #fff;
+    a {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 30px;
+      .fa {
+        font-size: 1.6em;
+      }
+    }
+    @include screen-queries-min-width('sm') {
+      left: 90%;
+    }
   }
 }
 
