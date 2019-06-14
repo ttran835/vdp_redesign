@@ -1,5 +1,6 @@
 @import './custom';
 /* scss file to used for vdp global*/
+$primary-title-font-color: #999999;
 
 body,
 p,
@@ -13,17 +14,21 @@ h4 {
   font-family: 'Open Sans', sans-serif;
 }
 
+.vdp .inventory-display-container {
+  background-color: $primary-test-color !important;
+}
+
 #name-and-price {
   margin-top: 20px;
   padding-top: 20px;
   h1 {
     font-size: $title-font-size;
-    color: $primary-font-color;
+    color: $primary-title-font-color;
   }
   #pricing-block {
     & > h1 {
       font-size: $title-font-size;
-      color: $primary-font-color;
+      color: $primary-title-font-color;
       padding-left: 15px;
       @include screen-queries-min-width('sm') {
         padding-right: 30px;
@@ -67,6 +72,7 @@ h4 {
       }
     }
   }
+
   #image-and-specs {
     @include standard-section-spacing;
   }

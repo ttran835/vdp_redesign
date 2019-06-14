@@ -34,6 +34,31 @@ $cta-title-font-size: 2.3rem;
   padding: 20px 0;
 }
 
+@mixin slick-arrows {
+  .slick-prev {
+    &:before {
+      color: #aaa;
+    }
+    z-index: 999;
+    background-color: #fff;
+    padding-top: 15px;
+    padding-bottom: 35px;
+    cursor: pointer;
+    left: 15px;
+  }
+  .slick-next {
+    &:before {
+      color: #aaa;
+    }
+    right: 15px;
+    z-index: 999;
+    background-color: #fff;
+    padding-top: 15px;
+    padding-bottom: 35px;
+    cursor: pointer;
+  }
+}
+
 @mixin page-title-border-box {
   display: -webkit-box;
   display: -ms-flexbox;
