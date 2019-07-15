@@ -27,13 +27,14 @@
     position: absolute;
     z-index: 9;
     left: 85%;
-    background-color: #fff;
+    background-color: rgba(0, 0, 0, 0.9);
     a {
       position: relative;
       display: flex;
       align-items: center;
       justify-content: center;
       width: 30px;
+      color: rgba(255, 255, 255, 0.78);
       .fa {
         font-size: 1.6em;
       }

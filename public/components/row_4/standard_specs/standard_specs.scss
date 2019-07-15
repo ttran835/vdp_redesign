@@ -19,14 +19,11 @@
       color: $primary-font-color;
       line-height: $list-txt-line-height;
       font-size: $list-txt-font-size;
-      height: 70px;
       margin: 0 0 -1px 0;
       padding: 5px;
-      border: solid thin $vdp-border-color;
       list-style-type: none;
-      &:nth-child(even) {
-        background-color: $vdp-border-color;
-        border: solid thin #000;
+      &:before {
+        content: '-';
       }
     }
     br {
@@ -90,9 +87,6 @@
           text-align: center;
           line-height: $list-txt-line-height;
           font-size: $list-txt-font-size;
-          &:nth-child(even) {
-            background-color: $vdp-border-color;
-          }
         }
       }
     }
